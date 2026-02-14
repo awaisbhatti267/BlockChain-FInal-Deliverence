@@ -1,0 +1,253 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 13:23:16] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:23:16] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:23:16] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:23:16] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:23:16] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:24:04] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 13:24:58] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 13:38:17] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:38:17] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:38:17] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:38:17] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:38:17] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:39:41] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 13:41:59] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:42:00] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:42:00] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:42:00] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:42:00] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 13:43:39] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 14:24:02] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 14:26:05] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 14:26:05] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 14:26:05] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 14:26:05] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 14:26:05] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 14:26:55] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 14:28:15] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 14:34:00] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 14:34:00] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 14:34:00] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 14:34:00] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 14:34:00] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 14:35:18] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 15:19:00] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 15:19:33] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 15:19:33] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 15:19:33] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 15:19:33] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 15:19:33] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 15:19:55] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 15:54:22] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 15:54:23] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 15:54:23] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 15:54:23] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 15:54:23] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 15:55:05] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 15:55:35] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 15:56:12] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 15:57:40] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 15:58:34] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 16:08:35] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:08:36] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:08:36] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:08:36] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:08:36] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:09:07] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 16:11:32] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:11:32] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:11:32] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:11:32] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:11:32] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:12:08] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 16:32:56] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:32:57] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:32:57] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:32:57] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:32:57] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:33:27] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 16:35:56] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 16:48:47] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:48:47] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:48:47] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:48:47] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:48:47] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:49:15] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 16:49:57] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 16:51:05] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 16:51:30] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 17:18:09] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 17:21:43] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:21:43] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:21:43] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:21:43] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:21:43] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:29:11] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 17:44:09] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:44:10] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:44:10] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:44:10] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:44:10] "POST /add_peer HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 17:44:34] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:44:34] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:44:34] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:44:34] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:44:34] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:46:02] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 17:46:30] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 17:46:57] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 17:47:28] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:47:28] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:47:28] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:47:28] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:47:28] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 17:48:20] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 17:49:31] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 17:51:15] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 17:53:03] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 18:12:04] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:12:04] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:12:04] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:12:04] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:12:04] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:12:29] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 18:13:21] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 18:14:18] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 18:17:18] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:17:19] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:17:19] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:17:19] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:17:19] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:17:42] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 18:18:17] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 18:25:18] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 18:27:00] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:27:01] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:27:01] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:27:01] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:27:01] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:27:15] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 18:28:30] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 18:29:24] "POST /block_gossip HTTP/1.1" 404 -
+127.0.0.1 - - [04/Dec/2025 18:30:28] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 18:47:38] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:47:38] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:47:38] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:47:38] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 18:47:38] "POST /add_peer HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.108:5004
+Press CTRL+C to quit
+127.0.0.1 - - [04/Dec/2025 20:31:20] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 20:31:22] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 20:31:22] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 20:31:22] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 20:31:22] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 20:31:44] "POST /block_gossip HTTP/1.1" 404 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.0.110:5004
+Press CTRL+C to quit
+127.0.0.1 - - [14/Feb/2026 14:11:50] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [14/Feb/2026 14:11:50] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [14/Feb/2026 14:11:50] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [14/Feb/2026 14:11:50] "POST /add_peer HTTP/1.1" 200 -
+127.0.0.1 - - [14/Feb/2026 14:11:50] "POST /add_peer HTTP/1.1" 200 -

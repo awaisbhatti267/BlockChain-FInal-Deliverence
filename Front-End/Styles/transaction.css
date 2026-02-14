@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #001933;
+  color: #FFD700;
+}
+
+.create-page {
+  width: 100%;
+  padding: 20px 50px;
+  min-height: 100vh;
+  /* ✅ expand to full page height */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0)50%, rgba(0, 0, 0, 0)50%), url(/Assets/9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  /* ✅ background stays fixed */
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Navbar */
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+.logo2 {
+  font-weight: bold;
+  font-size: 22px;
+  color: #FFD700;
+}
+.logo2 a {
+  color: #FFD700;
+  text-decoration: none;
+}
+.menu2 ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu2 ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.menu2 ul li a:hover,
+.menu2 ul li a[style*="color: red"] {
+  color: red;
+}
+
+.nav-underline {
+  width: 1200px;
+  height: 2px;
+  background-color: white;
+  margin: auto;
+}
+
+
+.form-container {
+  width: 500px;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  color: #FFD700;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+
+.form-container button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 6px;
+  background-color: #FFD700;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: red;
+}
+
+
+#confirmation {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  color: lightgreen;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-brn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 5px;
+}
+.return-button{
+    width: 160px;
+    height: 40px;
+    background: #FFD700;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    border-radius: 10px;
+    text-align: center;
+}
+.return-button:hover {
+  background-color: red;
+  color: black;
+}

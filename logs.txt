@@ -1,0 +1,325 @@
+[1757898029] Run-attack triggered from dashboard: {'requested_by': 'dashboard', 'ts': 1757898029660}
+[1757898421] [ATTACK-LOG] Attacker node created: 1 with mining power 526
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898422] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898423] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898424] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898425] [SIMBLOCK] Received unparseable payload
+[1757898486] Run-attack triggered from dashboard: {'requested_by': 'dashboard', 'ts': 1757898486416}
+[1757898512] Attack parameters updated: {'ATTACKER_HASH_POWER_SHARE': 0.51, 'VICTIM_CONFIRMATIONS': 3, 'ATTACKER_NETWORK_DELAY_MS': 200, 'NUM_OF_NODES': 5, 'updated_at': 1757898512695}
+[1757898529] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted from alice → bob (10)
+[1757898529] Block 1 mined with 2 tx(s)
+[1757898535] Run-attack triggered from dashboard: {'requested_by': 'dashboard', 'ts': 1757898535713}
+[1757900059] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted from alice → bob (10)
+[1757900059] Block 1 mined with 2 tx(s)
+[1757900065] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1757900065629}
+[1757900065] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1757900065629}
+[1757900098] [ATTACK-ARMED] Attack launched on tx c106e6b0f7d9d05ffe4eb1fc9e0e9f9624f796ea63126981f6f282bcb1375215 (awais → bob, 10)
+[1757900098] [ATTACK] Attacker mined block 1 with double-spend 7a64c3d6b31a538e0ba006bb0b492d7689490e088ad7b3692403f1b002dc3684
+[1757902811] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1757902811449}
+[1757902811] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1757902811448}
+[1757902818] [ATTACK-ARMED] Attack launched on tx c106e6b0f7d9d05ffe4eb1fc9e0e9f9624f796ea63126981f6f282bcb1375215 (awais → bob, 10)
+[1757902818] [ATTACK] Attacker mined block 1 with double-spend 7a64c3d6b31a538e0ba006bb0b492d7689490e088ad7b3692403f1b002dc3684
+[1757902872] Transaction a173b80611cf53f444d74254c4b4ae4cd7c7553e3243b8509b78ea4886ebc7ff accepted from bob → alice (10)
+[1757902872] Block 1 mined with 2 tx(s)
+[1757903265] [ATTACK-LOG] Attacker node created: 1 with mining power 526
+[1757903265] [SIMBLOCK] Tx 1 185 → 30 (19)
+[1757903265] [SIMBLOCK] Tx 2 66 → 129 (22)
+[1757903265] [SIMBLOCK] Tx 3 88 → 149 (10)
+[1757903265] [SIMBLOCK] Tx 4 233 → 253 (79)
+[1757903265] [SIMBLOCK] Tx 5 94 → 280 (14)
+[1757903265] [SIMBLOCK] Tx 6 234 → 76 (11)
+[1757903265] [SIMBLOCK] Tx 7 213 → 54 (32)
+[1757903265] [SIMBLOCK] Tx 8 7 → 139 (34)
+[1757903265] [SIMBLOCK] Tx 9 28 → 160 (45)
+[1757903265] [SIMBLOCK] Tx 10 141 → 130 (6)
+[1757903265] [SIMBLOCK] Block  mined by 80
+[1757903265] [SIMBLOCK] Block 1 mined by 62
+[1757903265] [SIMBLOCK] Block 2 mined by 208
+[1757903265] [SIMBLOCK] Block 3 mined by 272
+[1757903265] [SIMBLOCK] Block 3 mined by 272
+[1757903265] [SIMBLOCK] Block 4 mined by 42
+[1757903265] [SIMBLOCK] Block 5 mined by 50
+[1757903265] [SIMBLOCK] Block 6 mined by 207
+[1757903266] [SIMBLOCK] Block 7 mined by 95
+[1757903266] [SIMBLOCK] Block 8 mined by 184
+[1757903266] [SIMBLOCK] Block 9 mined by 184
+[1757903266] [SIMBLOCK] Block 10 mined by 272
+[1757903266] [SIMBLOCK] Block 11 mined by 94
+[1757903266] [SIMBLOCK] Block 12 mined by 90
+[1757903266] [SIMBLOCK] Block 13 mined by 259
+[1757903266] [SIMBLOCK] Block 14 mined by 284
+[1757903266] [SIMBLOCK] Block 15 mined by 121
+[1757903266] [SIMBLOCK] Block 16 mined by 80
+[1757903266] [SIMBLOCK] Block 16 mined by 80
+[1757903266] [SIMBLOCK] Block 17 mined by 286
+[1757903266] [SIMBLOCK] Block 18 mined by 286
+[1757903266] [SIMBLOCK] Block 19 mined by 296
+[1757903266] [SIMBLOCK] Block 19 mined by 296
+[1757903266] [SIMBLOCK] Block 20 mined by 91
+[1757903266] [SIMBLOCK] Block 20 mined by 88
+[1757903266] [SIMBLOCK] Block 21 mined by 184
+[1757903266] [SIMBLOCK] Block 22 mined by 284
+[1757903267] [SIMBLOCK] Block 23 mined by 276
+[1757903267] [SIMBLOCK] Block 24 mined by 265
+[1757903267] [SIMBLOCK] Block 24 mined by 265
+[1757903267] [SIMBLOCK] Block 25 mined by 243
+[1757903267] [SIMBLOCK] Block 26 mined by 38
+[1757903267] [SIMBLOCK] Block 27 mined by 95
+[1757903267] [SIMBLOCK] Block 28 mined by 4
+[1757903267] [SIMBLOCK] Block 29 mined by 91
+[1757903267] [SIMBLOCK] Block 30 mined by 80
+[1757903267] [SIMBLOCK] Block 31 mined by 175
+[1757903267] [SIMBLOCK] Block 32 mined by 175
+[1757903267] [SIMBLOCK] Block 33 mined by 208
+[1757903267] [SIMBLOCK] Block 34 mined by 145
+[1757903267] [SIMBLOCK] Block 35 mined by 40
+[1757903267] [SIMBLOCK] Block 36 mined by 175
+[1757903267] [SIMBLOCK] Block 37 mined by 160
+[1757903267] [SIMBLOCK] Block 38 mined by 286
+[1757903267] [SIMBLOCK] Block 39 mined by 208
+[1757903267] [SIMBLOCK] Block 40 mined by 95
+[1757903267] [SIMBLOCK] Block 41 mined by 128
+[1757903267] [SIMBLOCK] Block 42 mined by 259
+[1757903267] [SIMBLOCK] Block 42 mined by 259
+[1757903267] [SIMBLOCK] Block 43 mined by 103
+[1757903267] [SIMBLOCK] Block 44 mined by 170
+[1757903267] [SIMBLOCK] Block 44 mined by 170
+[1757903267] [SIMBLOCK] Block 45 mined by 175
+[1757903267] [SIMBLOCK] Block 46 mined by 18
+[1757903267] [SIMBLOCK] Block 46 mined by 18
+[1757903267] [SIMBLOCK] Block 47 mined by 280
+[1757903267] [SIMBLOCK] Block 48 mined by 232
+[1757903267] [SIMBLOCK] Block 48 mined by 232
+[1757903267] [SIMBLOCK] Block 49 mined by 113
+[1757903267] [SIMBLOCK] Block 50 mined by 209
+[1757903267] [SIMBLOCK] Block 51 mined by 103
+[1757903267] [SIMBLOCK] Block 52 mined by 42
+[1757903267] [SIMBLOCK] Block 53 mined by 272
+[1757903267] [SIMBLOCK] Block 54 mined by 145
+[1757903267] [SIMBLOCK] Block 55 mined by 220
+[1757903267] [SIMBLOCK] Block 56 mined by 285
+[1757903267] [SIMBLOCK] Block 57 mined by 145
+[1757903267] [SIMBLOCK] Block 58 mined by 96
+[1757903267] [SIMBLOCK] Block 59 mined by 91
+[1757903267] [SIMBLOCK] Block 60 mined by 292
+[1757903267] [SIMBLOCK] Block 61 mined by 214
+[1757903267] [SIMBLOCK] Block 61 mined by 214
+[1757903267] [SIMBLOCK] Block 62 mined by 37
+[1757903267] [SIMBLOCK] Block 63 mined by 50
+[1757903267] [SIMBLOCK] Block 64 mined by 185
+[1757903267] [SIMBLOCK] Block 65 mined by 201
+[1757903267] [SIMBLOCK] Block 66 mined by 99
+[1757903267] [SIMBLOCK] Block 67 mined by 97
+[1757903268] [SIMBLOCK] Block 68 mined by 113
+[1757903268] [SIMBLOCK] Block 69 mined by 299
+[1757903268] [SIMBLOCK] Block 69 mined by 299
+[1757903268] [SIMBLOCK] Block 70 mined by 201
+[1757903268] [SIMBLOCK] Block 71 mined by 272
+[1757903268] [SIMBLOCK] Block 72 mined by 286
+[1757903268] [SIMBLOCK] Block 73 mined by 96
+[1757903268] [SIMBLOCK] Block 74 mined by 191
+[1757903268] [SIMBLOCK] Block 75 mined by 160
+[1757903268] [SIMBLOCK] Block 76 mined by 176
+[1757903268] [SIMBLOCK] Block 77 mined by 145
+[1757903268] [SIMBLOCK] Block 78 mined by 272
+[1757903268] [SIMBLOCK] Block 79 mined by 94
+[1757903268] [SIMBLOCK] Block 80 mined by 132
+[1757903268] [SIMBLOCK] Block 81 mined by 166
+[1757903268] [SIMBLOCK] Block 82 mined by 132
+[1757903268] [SIMBLOCK] Block 83 mined by 128
+[1757903268] [SIMBLOCK] Block 84 mined by 176
+[1757903268] [SIMBLOCK] Block 85 mined by 95
+[1757903268] [SIMBLOCK] Block 86 mined by 286
+[1757903268] [SIMBLOCK] Block 87 mined by 260
+[1757903268] [SIMBLOCK] Block 88 mined by 6
+[1757903268] [SIMBLOCK] Block 89 mined by 41
+[1757903268] [SIMBLOCK] Block 90 mined by 5
+[1757903268] [SIMBLOCK] Block 91 mined by 290
+[1757903268] [SIMBLOCK] Block 92 mined by 200
+[1757903268] [SIMBLOCK] Block 93 mined by 96
+[1757903268] [SIMBLOCK] Block 94 mined by 76
+[1757903268] [SIMBLOCK] Block 95 mined by 233
+[1757903268] [SIMBLOCK] Block 96 mined by 29
+[1757903268] [SIMBLOCK] Block 97 mined by 233
+[1757903268] [SIMBLOCK] Block 98 mined by 241
+[1757903268] [SIMBLOCK] Block 99 mined by 278
+[1757903316] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1757903316737}
+[1757903316] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1757903316737}
+[1757903323] [ATTACK-ARMED] Attack launched on tx a173b80611cf53f444d74254c4b4ae4cd7c7553e3243b8509b78ea4886ebc7ff (bob → alice, 10)
+[1757903323] [ATTACK] Attacker mined block 1 with double-spend 7a64c3d6b31a538e0ba006bb0b492d7689490e088ad7b3692403f1b002dc3684
+[1757904125] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1757904125663}
+[1757904125] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1757904125664}
+[1757904139] [ATTACK-ARMED] Attack launched on tx a173b80611cf53f444d74254c4b4ae4cd7c7553e3243b8509b78ea4886ebc7ff (bob → alice, 10)
+[1757904139] [ATTACK] Attacker mined block 1 with double-spend 7a64c3d6b31a538e0ba006bb0b492d7689490e088ad7b3692403f1b002dc3684
+[1757904209] Transaction a173b80611cf53f444d74254c4b4ae4cd7c7553e3243b8509b78ea4886ebc7ff accepted from bob → alice (10)
+[1757904209] Block 1 mined with 2 tx(s)
+[1757905500] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1757905500412}
+[1757905500] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1757905500411}
+[1757905516] [ATTACK-ARMED] Attack launched on tx a173b80611cf53f444d74254c4b4ae4cd7c7553e3243b8509b78ea4886ebc7ff (bob → alice, 10)
+[1757905516] [ATTACK] Attacker mined block 1 with double-spend 7a64c3d6b31a538e0ba006bb0b492d7689490e088ad7b3692403f1b002dc3684
+[1758200816] Starting Flask node on port 5001
+[1758200868] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted from alice → bob (10)
+[1758200868] Block 1 mined with 2 tx(s)
+[1758200923] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1758200923233}
+[1758200923] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1758200923233}
+[1758200934] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted from alice → bob (10)
+[1758200934] Block 1 mined with 2 tx(s)
+[1758220801] Starting Flask node on port 5001
+[1758221147] Starting Flask node on port 5001
+[1758221192] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1758221192249}
+[1758221192] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1758221192250}
+[1758221208] [ATTACK-ARMED] Attack attempt on tx 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 (alice → bob, 10). Share=N/A
+[1758221208] [ATTACK-FAIL] Attacker lost. Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted.
+[1758545309] Starting Flask node on port 5001
+[1758545318] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1758545318411}
+[1758545318] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1758545318411}
+[1758545324] [ATTACK-ARMED] Attack attempt on tx 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 (alice → bob, 10). Share=N/A
+[1758545324] [ATTACK-SUCCESS] Attacker mined block 1 with double-spend 7a64c3d6b31a538e0ba006bb0b492d7689490e088ad7b3692403f1b002dc3684
+[1758546637] Starting Flask node on port 5001
+[1758546647] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1758546647820}
+[1758546647] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1758546647821}
+[1758546674] [ATTACK-ARMED] Attack attempt on tx bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce (alice → bob, 5). Share=N/A
+[1758546674] [ATTACK-SUCCESS] Attacker mined block 1 with double-spend 7fa35a5fc1d2f4d8be4c65d4d6fa9270e3726d3b23a3246eaf5d8a294b14d758
+[1758693645] Starting Flask node on port 5001
+[1758693655] Transaction a173b80611cf53f444d74254c4b4ae4cd7c7553e3243b8509b78ea4886ebc7ff accepted from bob → alice (10)
+[1758693655] Block 1 mined with 2 tx(s)
+[1758693676] Attack parameters updated: {'ATTACKER_HASH_POWER_SHARE': 51, 'VICTIM_CONFIRMATIONS': 3, 'ATTACKER_NETWORK_DELAY_MS': 200, 'NUM_OF_NODES': 7, 'updated_at': 1758693676634}
+[1758693705] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1758693705482}
+[1758693705] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1758693705482}
+[1758693715] Transaction a173b80611cf53f444d74254c4b4ae4cd7c7553e3243b8509b78ea4886ebc7ff accepted from bob → alice (10)
+[1758693715] Block 1 mined with 2 tx(s)
+[1759784908] Starting Flask node on port 5001
+[1759785405] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted from alice → bob (10)
+[1759785405] Block 1 mined with 2 tx(s)
+[1759785762] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted from alice → bob (10)
+[1759785762] Block 1 mined with 2 tx(s)
+[1759785832] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1759785832258}
+[1759785832] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1759785832258}
+[1759785833] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1759785833954}
+[1759785833] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1759785833954}
+[1759785853] [ATTACK-ARMED] Attack attempt on tx d175e999d534e88a5ae23647f2fabe7466f41ecfe2a9f1e089a1d36e978b4d64 (alice → bob, 2). Share=N/A
+[1759785853] [ATTACK-FAIL] Attacker lost. Transaction d175e999d534e88a5ae23647f2fabe7466f41ecfe2a9f1e089a1d36e978b4d64 accepted.
+[1759785870] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1759785870195}
+[1759785879] Attack parameters updated: {'ATTACKER_HASH_POWER_SHARE': 51, 'VICTIM_CONFIRMATIONS': 3, 'ATTACKER_NETWORK_DELAY_MS': 200, 'NUM_OF_NODES': 5, 'updated_at': 1759785879299}
+[1759785889] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted from alice → bob (10)
+[1759785889] Block 1 mined with 2 tx(s)
+[1759785904] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1759785904386}
+[1759785904] Run-attack armed from dashboard: {'requested_by': 'dashboard', 'ts': 1759785904386}
+[1759785913] [ATTACK-ARMED] Attack attempt on tx 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 (alice → bob, 10). Share=51
+[1759785913] [ATTACK-SUCCESS] Attacker mined block 1 with double-spend 7a64c3d6b31a538e0ba006bb0b492d7689490e088ad7b3692403f1b002dc3684
+[1759787399] Starting Flask node on port 5001
+[1762252902] Starting Flask node on port 5001

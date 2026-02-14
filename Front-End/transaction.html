@@ -1,0 +1,126 @@
+<!-- #################################
+####### -Transaction.html- ######
+################################# -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Create Transaction - DoubleForge</title>
+  <link rel="stylesheet" href="/Front-End/Styles/transaction.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="create-page">
+    <div class="main3">
+      <div class="navbar2">
+        <div class="icon2">
+          <h2 class="logo2"><a href="dashboard.html">DoubleForge: Blockchain Attack Testing Suite</a></h2>
+        </div>
+        <div class="menu2">
+          <ul>
+            <li><a href="dashboard.html" >Dashboard</a></li>
+            <li><a href="transaction.html" style="color: red;">Create Transaction</a></li>
+            <li><a href="log.html">Logs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="form-container">
+      <h1>Create a New Transaction</h1>
+      <form id="transactionForm">
+        <label for="sender">Sender Address:</label>
+        <input type="text" id="sender" name="sender" placeholder="Enter sender address (e.g., alice)" required>
+
+        <label for="receiver">Receiver Address:</label>
+        <input type="text" id="receiver" name="receiver" placeholder="Enter receiver address (e.g., bob)" required>
+
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+
+        <button type="submit">Submit Transaction</button>
+      </form>
+      <p id="confirmation" class="hidden"></p>
+    </div>
+    <div class="nav-brn">
+      <button id="returndasboard" class="return-button"><i class='fas fa-angle-left'></i>Dashboard</button>
+      <button id="return_log" class="return-button">Logs<i class='fas fa-angle-right'></i></button>
+    </div>
+  </div>
+
+  <script>
+    const BACKEND_BASE = "http://127.0.0.1:5001"; // backend node
+
+    const form = document.getElementById("transactionForm");
+    const confirmation = document.getElementById("confirmation");
+
+    async function getSenderNonce(sender) {
+      const res = await fetch(`${BACKEND_BASE}/api/balance/${sender}`);
+      if (!res.ok) throw new Error("Failed to fetch nonce");
+      const data = await res.json();
+      return data.nonce;
+    }
+
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const sender = document.getElementById("sender").value.trim();
+      const receiver = document.getElementById("receiver").value.trim();
+      const amount = Number(document.getElementById("amount").value);
+
+      try {
+        const nonce = await getSenderNonce(sender);
+
+        const payload = { sender, receiver, amount, nonce };
+
+        const res = await fetch(`${BACKEND_BASE}/api/tx`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        const data = await res.json();
+
+        if (data.accepted) {
+          confirmation.textContent = `✅ Transaction Accepted! `; //TXID: ${data.txid}
+          confirmation.style.color = "lime";
+          confirmation.classList.remove("hidden");
+
+          setTimeout(() => {
+            window.location.href = "dashboard.html"; // redirect to see it in mempool
+          }, 1500);
+        } else {
+          confirmation.textContent = `❌ Transaction Rejected (check balance/nonce)`;
+          confirmation.style.color = "red";
+          confirmation.classList.remove("hidden");
+        }
+      } catch (err) {
+        console.error("Error:", err);
+        confirmation.textContent = `⚠️ Error submitting transaction. Backend may be down.`;
+        confirmation.style.color = "orange";
+        confirmation.classList.remove("hidden");
+      }
+      const r = await nodePost("/api/tx", payload);
+      if (r.accepted) {
+        alert(`✅ Transaction accepted and mined in Block #${r.mined_block.index}`);
+        txForm.reset();
+      } else {
+        alert("❌ Transaction rejected.");
+      }
+
+    });
+  </script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

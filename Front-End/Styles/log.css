@@ -1,0 +1,102 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001933;
+    color: #FFD700;
+}
+.logs-page {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 50px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Assets/4.jpg) center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+  
+
+
+/* Navbar */
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.logo2 {
+    font-weight: bold;
+    font-size: 22px;
+    color: #FFD700;
+}
+.logo2 a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.menu2 ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu2 ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu2 ul li a:hover,
+.menu2 ul li a[style*="color: red"] {
+    color: red;
+}
+
+.logs-page .logs-container {
+  padding: 20px 80px;
+  margin-top: 30px;
+}
+
+.logs-page .logs-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: Arial;
+}
+
+.logs-page .log-box {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+  font-family: Consolas, monospace;
+  line-height: 1.6;
+  font-size: 16px;
+  border: 1px solid white;
+}
+
+.returnbtn{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.returnbtn button {
+  background-color: #FFD700;
+  color: #001933;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.returnbtn button:hover {
+  background-color: #e6c200;
+}

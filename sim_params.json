@@ -1,0 +1,14 @@
+{
+  "ATTACKER_HASH_POWER_SHARE": 51,
+  "VICTIM_CONFIRMATIONS": 3,
+  "ATTACKER_NETWORK_DELAY_MS": 200,
+  "NUM_OF_NODES": 5,
+  "updated_at": 1759785879299,
+  "attack_armed": false,
+  "trigger_info": {
+    "requested_by": "dashboard",
+    "ts": 1759785904386
+  },
+  "attack_triggered": true,
+  "target_txid": "46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679"
+}

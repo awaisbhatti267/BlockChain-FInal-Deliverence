@@ -1,0 +1,409 @@
+<!-- dashboard.html (merged, JS inline) - UPDATED: chart shows sender & receiver in tooltips -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/Front-End/Styles/dashboard.css" />
+  <style>
+    /* Minor helper, keeps your style intact */
+    #recentAttacksContainerInner {
+      overflow-y: auto;
+      max-height: 420px;
+      padding-right: 8px;
+    }
+  </style>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+</head>
+
+<body>
+  <div class="main2">
+    <!-- Navbar -->
+    <div class="navbar2">
+      <div class="icon2">
+        <h2 class="logo2"><a href="dashboard.html">DoubleForge: Blockchain Attack Testing Suite</a></h2>
+      </div>
+      <div class="menu2">
+        <ul>
+          <li><a href="dashboard.html" style="color: red;">Dashboard</a></li>
+          <li><a href="transaction.html">Create Transaction</a></li>
+          <li><a href="log.html">Logs</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Recent Attacks / Simulation Controls -->
+    <div class="group">
+      <div>
+        <h2 class="recent">Recent Attacks</h2>
+      </div>
+      <div>
+        <h2 class="sim">Simulation Controls</h2>
+      </div>
+    </div>
+
+    <!-- Boxes for logs and controls -->
+    <div class="box-gr">
+      <div class="box" id="recentAttacksContainer">
+        <div class="boxes" id="recentAttacksContainerInner"></div>
+      </div>
+
+      <div class="box2">
+        <div class="boxes2" id="infoBoxes"></div>
+        <div id="createbtn" class="btn-gr"><button class="create">Create Transaction</button></div>
+        <div id="runattackbtn" class="btn-gr2"><button class="create">Run Attack</button></div>
+        <div id="adjustbtn" class="btn-gr3"><button class="create">Adjust Parameters</button></div>
+        <div style="margin-top:8px">
+          <button id="downloadCsvBtn" class="refresh-btn">Download CSV (this node)</button>
+        </div>
+      </div>
+    </div>
+
+    <button id="exitbtn" class="exit">Exit</button>
+
+    <!-- Modal -->
+    <div id="parametersModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Adjust Simulation Parameters</h2>
+        <label>Hash Rate (%)</label>
+        <input type="number" id="hashRate" value="51" /><br /><br />
+        <label>Confirmation Time (in blocks)</label>
+        <select id="confirmTime">
+          <option value="1">1</option>
+          <option value="3" selected>3</option>
+          <option value="6">6</option>
+        </select><br /><br />
+        <label>Network Delay (ms)</label>
+        <input type="number" id="networkDelay" value="200" /><br /><br />
+        <label>Node Count</label>
+        <input type="number" id="nodeCount" value="5" /><br /><br />
+        <button id="applyParams" class="create">Apply Changes</button>
+        <button id="cancelParams" class="exit">Cancel</button>
+      </div>
+    </div>
+
+    <!-- Blockchain Explorer -->
+    <div class="block-explorer">
+      <h2>📦 Blockchain Explorer</h2>
+      <table id="blockTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Hash</th>
+            <th>Prev Hash</th>
+            <th>Tx Count</th>
+            <th>Mined At</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <button class="refresh-btn" id="refreshBlocksBtn">🔄 Refresh</button>
+    </div>
+
+    <!-- Attack Charts -->
+    <div class="attack-charts">
+      <h2>📈 Attack Simulation Analytics</h2>
+      <canvas id="attackChart" width="800" height="300"></canvas>
+    </div>
+
+    <!-- Pending Transactions -->
+    <div class="pending-transactions">
+      <h2>🕒 Pending Transactions</h2>
+      <table id="mempoolTable">
+        <thead>
+          <tr>
+            <th>TxID</th>
+            <th>Sender</th>
+            <th>Receiver</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- ================= INLINED JS (chart updated to show sender/receiver) ================= -->
+  <script>
+    (function () {
+      const BACKEND_BASE = "http://127.0.0.1:5001";
+
+      async function getJSON(path) {
+        const res = await fetch(BACKEND_BASE + path);
+        if (!res.ok) throw new Error("GET " + path + " failed: " + res.status);
+        return res.json();
+      }
+      async function postJSON(path, body) {
+        const res = await fetch(BACKEND_BASE + path, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body || {})
+        });
+        if (!res.ok) throw new Error("POST " + path + " failed: " + res.status);
+        return res.json();
+      }
+
+      // ---------- Recent Attacks log area ----------
+      async function fetchLogsAndRender() {
+        try {
+          const logs = await getJSON("/logs");
+          const container = document.getElementById("recentAttacksContainerInner");
+          container.innerHTML = "";
+          if (!Array.isArray(logs) || logs.length === 0) {
+            container.innerHTML = "<div style='color:#FFD700;padding:8px;'>No logs yet</div>";
+            return;
+          }
+          logs.slice().reverse().forEach(line => {
+            const div = document.createElement("div");
+            div.className = "attack-success";
+            div.style.whiteSpace = "pre-wrap";
+            div.style.fontSize = "13px";
+            div.innerText = line;
+            container.appendChild(div);
+          });
+        } catch (err) {
+          console.error("fetchLogsAndRender:", err);
+        }
+      }
+
+      // ---------- Download CSV ----------
+      document.getElementById("downloadCsvBtn").addEventListener("click", async () => {
+        try {
+          const res = await fetch(BACKEND_BASE + "/api/logs_csv");
+          if (!res.ok) { alert("CSV not available: " + res.status); return; }
+          const blob = await res.blob();
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = "logs_node.csv";
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          URL.revokeObjectURL(url);
+        } catch (err) {
+          console.error("download CSV:", err);
+          alert("Failed to download CSV. Check backend/logs file.");
+        }
+      });
+
+      // ---------- Blockchain explorer ----------
+      async function loadBlocks() {
+        try {
+          const chain = await getJSON("/api/chain");
+          const tbody = document.querySelector("#blockTable tbody");
+          tbody.innerHTML = "";
+          chain.forEach(block => {
+            const row = document.createElement("tr");
+            row.innerHTML = `<td>${block.index}</td>
+            <td>${String(block.hash).slice(0, 15)}...</td>
+            <td>${String(block.prev_hash).slice(0, 15)}...</td>
+            <td>${(block.txs || []).length}</td>
+            <td>${block.timestamp ? new Date(block.timestamp * 1000).toLocaleTimeString() : '-'}</td>`;
+            tbody.appendChild(row);
+          });
+        } catch (err) { console.error("loadBlocks:", err); }
+      }
+      document.getElementById("refreshBlocksBtn").addEventListener("click", loadBlocks);
+
+      async function loadMempool() {
+        try {
+          const mempool = await getJSON("/api/mempool");
+          const tbody = document.querySelector("#mempoolTable tbody");
+          tbody.innerHTML = "";
+          if (!mempool || mempool.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="4">No pending transactions</td></tr>`;
+            return;
+          }
+          mempool.forEach(tx => {
+            const row = document.createElement("tr");
+            row.innerHTML = `<td>${String(tx.txid).slice(0, 10)}...</td><td>${tx.sender}</td><td>${tx.receiver}</td><td>${tx.amount}</td>`;
+            tbody.appendChild(row);
+          });
+        } catch (err) { console.error("loadMempool:", err); }
+      }
+
+      // ---------- Attack Chart ----------
+      let attackChart = null;
+      function parseCsv(text) {
+        const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length);
+        if (lines.length === 0) return [];
+        const header = lines[0].split(',').map(h => h.trim());
+        const rows = [];
+        for (let i = 1; i < lines.length; i++) {
+          const cols = lines[i].split(',').map(c => c.trim());
+          while (cols.length < header.length) cols.push('');
+          const obj = {};
+          for (let j = 0; j < header.length; j++) obj[header[j]] = cols[j];
+          rows.push(obj);
+        }
+        return rows;
+      }
+      function minuteKeyFromTs(ts) {
+        const d = new Date(Number(ts) * 1000);
+        const p = n => String(n).padStart(2, '0');
+        return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+      }
+
+      async function loadAttackChart() {
+        try {
+          const res = await fetch(BACKEND_BASE + "/api/logs_csv");
+          if (!res.ok) { if (attackChart) { attackChart.destroy(); attackChart = null; } return; }
+          const text = await res.text();
+          const rows = parseCsv(text);
+          if (!rows.length) { if (attackChart) { attackChart.destroy(); attackChart = null; } return; }
+
+          const buckets = {};
+          const bucketsRaw = {};
+          rows.forEach(r => {
+            const tsRaw = r.timestamp || r[' timestamp'] || '';
+            const amountRaw = r.amount || r[' amount'] || '0';
+            const typeRaw = (r.type || '').toLowerCase();
+            const sender = r.sender || "unknown";
+            const receiver = r.receiver || "unknown";
+            const tsNum = Number(tsRaw);
+            if (!tsRaw || Number.isNaN(tsNum)) return;
+            const key = minuteKeyFromTs(tsNum);
+            if (!buckets[key]) buckets[key] = { amountSum: 0, mempoolCount: 0, blockAcceptedCount: 0 };
+            if (!bucketsRaw[key]) bucketsRaw[key] = [];
+            const amt = Number(amountRaw) || 0;
+            buckets[key].amountSum += amt;
+            if (typeRaw.includes('mempool')) buckets[key].mempoolCount += 1;
+            if (typeRaw.includes('block') || typeRaw.includes('block-accepted')) buckets[key].blockAcceptedCount += 1;
+            bucketsRaw[key].push({ sender, receiver, amount: amt });
+          });
+
+          const keys = Object.keys(buckets).sort((a, b) => a.localeCompare(b));
+          const labels = keys;
+          const amountSeries = keys.map(k => buckets[k].amountSum);
+          const mempoolSeries = keys.map(k => buckets[k].mempoolCount);
+          const blockSeries = keys.map(k => buckets[k].blockAcceptedCount);
+
+          const ctx = document.getElementById("attackChart").getContext("2d");
+          if (attackChart) attackChart.destroy();
+          attackChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: labels,
+              datasets: [
+                { type: 'line', label: 'Total Amount', data: amountSeries, yAxisID: 'A', tension: 0.2, borderWidth: 2, fill: false },
+                { type: 'bar', label: 'Mempool Adds', data: mempoolSeries, yAxisID: 'B', stack: 'counts' },
+                { type: 'bar', label: 'Blocks Accepted', data: blockSeries, yAxisID: 'B', stack: 'counts' }
+              ]
+            },
+            options: {
+              responsive: true,
+              interaction: { mode: 'index', intersect: false },
+              scales: {
+                A: { type: 'linear', position: 'left', title: { display: true, text: 'Amount' } },
+                B: { type: 'linear', position: 'right', title: { display: true, text: 'Counts' }, grid: { drawOnChartArea: false } }
+              },
+              plugins: {
+                legend: { position: 'top' },
+                tooltip: {
+                  callbacks: {
+                    afterLabel: function (context) {
+                      const minute = context.label;
+                      const txs = bucketsRaw[minute] || [];
+                      if (!txs.length) return "No transactions";
+                      return txs.map(tx => `Sender: ${tx.sender}, Receiver: ${tx.receiver}, Amount: ${tx.amount}`);
+                    }
+                  }
+                }
+              }
+            }
+          });
+
+        } catch (err) { console.error("loadAttackChart:", err); }
+      }
+
+      // ---------- Parameters modal wiring ----------
+      const adjustBtnWrapper = document.getElementById("adjustbtn");
+      const parametersModal = document.getElementById("parametersModal");
+      const closeSpan = parametersModal.querySelector(".close");
+      const applyParamsBtn = document.getElementById("applyParams");
+      const cancelParamsBtn = document.getElementById("cancelParams");
+      const hashRateInput = document.getElementById("hashRate");
+      const confirmTimeSelect = document.getElementById("confirmTime");
+      const networkDelayInput = document.getElementById("networkDelay");
+      const nodeCountInput = document.getElementById("nodeCount");
+
+      adjustBtnWrapper.addEventListener("click", () => { parametersModal.style.display = "block"; });
+      closeSpan.onclick = () => parametersModal.style.display = "none";
+      cancelParamsBtn.addEventListener("click", () => parametersModal.style.display = "none");
+      applyParamsBtn.addEventListener("click", async () => {
+        const hashRatePercent = Number(hashRateInput.value || 0);
+        const confirmationTime = Number(confirmTimeSelect.value || 0);
+        const networkDelay = Number(networkDelayInput.value || 0);
+        const nodeCount = Number(nodeCountInput.value || 0);
+        const params = {
+          ATTACKER_HASH_POWER_SHARE: (hashRatePercent > 1 ? hashRatePercent / 100 : hashRatePercent),
+          CONFIRMATIONS: confirmationTime,
+          ATTACKER_NETWORK_DELAY_MS: networkDelay,
+          NETWORK_DELAY_MS: networkDelay,
+          NUM_OF_NODES: nodeCount,
+          updated_at: Date.now()
+        };
+        try {
+          await postJSON("/api/set_params", params);
+          alert("Parameters saved."); parametersModal.style.display = "none";
+        } catch (err) { console.error("apply params:", err); alert("Failed to save parameters."); }
+      });
+
+      // ---------- Run Attack button ----------
+      document.getElementById("runattackbtn").querySelector(".create").addEventListener("click", async e => {
+        e.preventDefault();
+        try {
+          await postJSON("/run_attack", { requested_by: "dashboard", ts: Date.now() });
+          alert("Attack armed. Submit a victim tx to trigger.");
+        } catch (err) { console.error("run_attack:", err); alert("Failed to trigger attack."); }
+      });
+
+      // ---------- Create Transaction button ----------
+      const createbtn = document.getElementById("createbtn");
+      if (createbtn) createbtn.addEventListener("click", () => window.location.href = "transaction.html");
+
+      // ---------- Info boxes ----------
+      async function refreshInfoBoxes() {
+        try {
+          const chain = await getJSON("/api/chain");
+          const last = chain[chain.length - 1];
+          const boxes = document.getElementById("infoBoxes");
+          const miner = await getJSON("/api/balance/miner");
+          const alice = await getJSON("/api/balance/alice");
+          const bob = await getJSON("/api/balance/bob");
+          boxes.innerHTML = `<div style="padding:8px;color:#FFD700;font-family:Arial;font-size:14px;">
+          <b>Chain Height:</b> ${chain.length - 1}<br/>
+          <b>Last Block:</b> ${String(last.hash).slice(0, 10)}...<br/>
+          <b>Miner Balance:</b> ${miner.balance} <br/>
+          <b>Alice:</b> ${alice.balance} (nonce ${alice.nonce})<br/>
+          <b>Bob:</b> ${bob.balance} (nonce ${bob.nonce})
+        </div>`;
+        } catch (e) { console.warn("refreshInfoBoxes:", e); }
+      }
+
+      // ---------- Periodic refresh ----------
+      async function refreshAll() {
+        await Promise.allSettled([fetchLogsAndRender(), loadBlocks(), loadMempool(), loadAttackChart(), refreshInfoBoxes()]);
+      }
+      document.addEventListener("DOMContentLoaded", () => {
+        refreshAll();
+        setInterval(refreshAll, 5000);
+      });
+
+    })();
+    const exit_btn = document.getElementById("exitbtn");
+    if (exit_btn) {
+      exit_btn.addEventListener("click", () => {
+        window.location.href = "index.html";
+      });
+    }
+  </script>
+  <!-- ================= end JS ================= -->
+</body>
+
+</html>

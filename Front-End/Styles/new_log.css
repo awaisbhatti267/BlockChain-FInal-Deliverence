@@ -1,0 +1,255 @@
+/* logs.css */
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MAIN BACKGROUND WRAPPER */
+.main3 {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%),
+              url(/Assets/4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+}
+
+/* ---------------------------
+   NAVBAR (Desktop Structure)
+----------------------------- */
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  height: 75px;
+  margin: auto;
+  border-bottom: 2px solid #ffffff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Left logo block */
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #FFD700;
+  font-size: 30px;
+  font-family: Arial;
+  padding-left: 5px;
+}
+
+/* Right menu */
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 22px;
+  transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+  color: red;
+}
+
+/* ---------------------------
+   LOGS PAGE CONTENT
+----------------------------- */
+
+.logs-page .logs-container {
+  padding: 20px 80px;
+  margin-top: 30px;
+}
+
+.logs-page .logs-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.logs-page .log-box {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+  line-height: 1.6;
+  font-size: 16px;
+  border: 1px solid white;
+}
+
+/* Controls */
+.log-controls {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.log-controls button {
+  background: #FFD700;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #001933;
+}
+
+.log-controls button:hover {
+  background: #ff0000;
+  color: #fff;
+}
+
+.node-selector {
+  background: rgba(255, 255, 255, 0.06);
+  color: #FFD700;
+  border: 1px solid #FFD700;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.log-status {
+  margin-left: 8px;
+  color: #FFD700;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.small-muted {
+  color: #ccc;
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+/* ================================================= */
+/*               RESPONSIVE BREAKPOINTS              */
+/* ================================================= */
+
+/* ---------- TABLETS (≤ 992px) ---------- */
+@media (max-width: 992px) {
+
+  .navbar {
+    padding: 0 15px;
+  }
+
+  .menu ul {
+    gap: 30px;
+  }
+
+  .menu ul li a {
+    font-size: 18px;
+  }
+
+  .logs-page .logs-container {
+    padding: 20px 40px;
+  }
+
+  .logs-page .logs-container h1 {
+    font-size: 28px;
+  }
+
+  .logs-page .log-box {
+    font-size: 15px;
+  }
+}
+
+/* ---------- MOBILE (≤ 768px) ---------- */
+@media (max-width: 768px) {
+
+  /* Navbar becomes vertical */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 15px 0;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .menu ul {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .menu ul li a {
+    font-size: 16px;
+  }
+
+  .logs-page .logs-container {
+    padding: 20px 20px;
+  }
+
+  .logs-page .logs-container h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .logs-page .log-box {
+    max-height: 350px;
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .log-controls {
+    justify-content: center;
+  }
+}
+
+/* ---------- SMALL MOBILE (≤ 480px) ---------- */
+@media (max-width: 480px) {
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .menu ul {
+    gap: 12px;
+  }
+
+  .menu ul li a {
+    font-size: 14px;
+  }
+
+  .logs-page .logs-container {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .logs-page .logs-container h1 {
+    font-size: 20px;
+  }
+
+  .logs-page .log-box {
+    max-height: 300px;
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .log-controls button {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .node-selector {
+    font-size: 14px;
+    padding: 5px;
+  }
+}

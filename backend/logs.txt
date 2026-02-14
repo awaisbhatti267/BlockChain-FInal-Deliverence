@@ -1,0 +1,1008 @@
+[1763814828] Peer added: http://127.0.0.1:5002
+[1763814828] Peer added: http://127.0.0.1:5003
+[1763814828] Peer added: http://127.0.0.1:5001
+[1763814828] Peer added: http://127.0.0.1:5003
+[1763814828] Peer added: http://127.0.0.1:5001
+[1763814828] Peer added: http://127.0.0.1:5002
+[1763814880] Transaction bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce accepted
+[1763814880] Block 1 mined
+[1763814880] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 201 ms
+[1763814880] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 198 ms
+[1763814880] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1763814880] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1763814915] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1763814915297}
+[1763814932] [ATTACK-ARMED] Attack attempt on tx 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679
+[1763814932] [ATTACK-SUCCESS] Attacker mined block 1
+[1763814932] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 205 ms
+[1763814932] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 176 ms
+[1763814932] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1763814932] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1763817641] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1763817641848}
+[1763817715] Peer added: http://127.0.0.1:5002
+[1763817715] Peer added: http://127.0.0.1:5003
+[1763817715] Peer added: http://127.0.0.1:5001
+[1763817715] Peer added: http://127.0.0.1:5003
+[1763817715] Peer added: http://127.0.0.1:5001
+[1763817715] Peer added: http://127.0.0.1:5002
+[1763817729] [ATTACK-ARMED] Attack attempt on tx 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679
+[1763817729] [ATTACK-SUCCESS] Attacker mined block 1
+[1763817729] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 172 ms
+[1763817729] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 221 ms
+[1763817729] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1763817729] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1763817751] Transaction bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce accepted
+[1763817751] Block 1 mined
+[1763817751] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 221 ms
+[1763817751] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 183 ms
+[1763817751] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1763817751] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764049567] Peer added: http://127.0.0.1:5002
+[1764049567] Peer added: http://127.0.0.1:5003
+[1764049567] Peer added: http://127.0.0.1:5001
+[1764049567] Peer added: http://127.0.0.1:5003
+[1764049567] Peer added: http://127.0.0.1:5001
+[1764049567] Peer added: http://127.0.0.1:5002
+[1764049584] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted
+[1764049584] Block 1 mined
+[1764049584] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 197 ms
+[1764049584] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 227 ms
+[1764049585] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764049585] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764049701] Transaction bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce accepted
+[1764049701] Block 1 mined
+[1764049701] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 208 ms
+[1764049701] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 181 ms
+[1764049701] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764049701] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764049797] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764049797840}
+[1764049808] [ATTACK-ARMED] Attack attempt on tx c77a1fc9b61ca47a281efe91b03ed2d6256ef53a345d971b4ac40fee0420a6d6
+[1764049808] [ATTACK-SUCCESS] Attacker mined block 1
+[1764049808] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 165 ms
+[1764049808] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 221 ms
+[1764049808] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764049808] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764050023] Peer added: http://127.0.0.1:5002
+[1764050024] Peer added: http://127.0.0.1:5003
+[1764050024] Peer added: http://127.0.0.1:5001
+[1764050024] Peer added: http://127.0.0.1:5003
+[1764050024] Peer added: http://127.0.0.1:5001
+[1764050024] Peer added: http://127.0.0.1:5002
+[1764050040] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted
+[1764050041] Block 1 mined
+[1764050041] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 232 ms
+[1764050041] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 222 ms
+[1764050041] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764050041] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764050068] Transaction bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce accepted
+[1764050068] Block 1 mined
+[1764050068] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 174 ms
+[1764050068] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 232 ms
+[1764050068] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764050068] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764050365] Peer added: http://127.0.0.1:5002
+[1764050365] Peer added: http://127.0.0.1:5003
+[1764050365] Peer added: http://127.0.0.1:5001
+[1764050365] Peer added: http://127.0.0.1:5003
+[1764050365] Peer added: http://127.0.0.1:5001
+[1764050365] Peer added: http://127.0.0.1:5002
+[1764050395] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted
+[1764050395] Block 1 mined
+[1764050395] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 195 ms
+[1764050395] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 239 ms
+[1764050395] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764050395] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764053007] Transaction bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce accepted
+[1764053007] Block 1 mined
+[1764053007] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 210 ms
+[1764053007] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 211 ms
+[1764053007] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764053007] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764053033] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted
+[1764053033] Block 1 mined
+[1764053033] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 213 ms
+[1764053033] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 165 ms
+[1764053034] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764053034] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764054851] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764054851552}
+[1764709884] Peer added: http://127.0.0.1:5002
+[1764709884] Peer added: http://127.0.0.1:5003
+[1764709884] Peer added: http://127.0.0.1:5001
+[1764709884] Peer added: http://127.0.0.1:5003
+[1764709884] Peer added: http://127.0.0.1:5001
+[1764709884] Peer added: http://127.0.0.1:5002
+[1764779853] Peer added: http://127.0.0.1:5002
+[1764779853] Peer added: http://127.0.0.1:5003
+[1764779853] Peer added: http://127.0.0.1:5001
+[1764779853] Peer added: http://127.0.0.1:5003
+[1764779853] Peer added: http://127.0.0.1:5001
+[1764779853] Peer added: http://127.0.0.1:5002
+[1764780787] Peer added: http://127.0.0.1:5002
+[1764780787] Peer added: http://127.0.0.1:5003
+[1764780787] Peer added: http://127.0.0.1:5001
+[1764780787] Peer added: http://127.0.0.1:5003
+[1764780787] Peer added: http://127.0.0.1:5001
+[1764780787] Peer added: http://127.0.0.1:5002
+[1764836288] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764836288609}
+[1764836312] [ATTACK-ARMED] Attack attempt on tx bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce
+[1764836312] [ATTACK-SUCCESS] Attacker mined block 1
+[1764836312] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 229 ms
+[1764836312] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 209 ms
+[1764836312] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764836312] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764836406] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764836406412}
+[1764836421] [ATTACK-ARMED] Attack attempt on tx 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679
+[1764836421] [ATTACK-SUCCESS] Attacker mined block 2
+[1764836421] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 178 ms
+[1764836421] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 167 ms
+[1764836422] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764836422] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764836596] Peer added: http://127.0.0.1:5002
+[1764836596] Peer added: http://127.0.0.1:5003
+[1764836596] Peer added: http://127.0.0.1:5004
+[1764836596] Peer added: http://127.0.0.1:5005
+[1764836596] Peer added: http://127.0.0.1:5001
+[1764836596] Peer added: http://127.0.0.1:5003
+[1764836596] Peer added: http://127.0.0.1:5004
+[1764836596] Peer added: http://127.0.0.1:5005
+[1764836596] Peer added: http://127.0.0.1:5001
+[1764836596] Peer added: http://127.0.0.1:5002
+[1764836596] Peer added: http://127.0.0.1:5004
+[1764836596] Peer added: http://127.0.0.1:5005
+[1764836596] Peer added: http://127.0.0.1:5001
+[1764836596] Peer added: http://127.0.0.1:5002
+[1764836596] Peer added: http://127.0.0.1:5003
+[1764836596] Peer added: http://127.0.0.1:5005
+[1764836596] Peer added: http://127.0.0.1:5001
+[1764836596] Peer added: http://127.0.0.1:5002
+[1764836596] Peer added: http://127.0.0.1:5003
+[1764836596] Peer added: http://127.0.0.1:5004
+[1764836622] [PARAMS] Updated params via API: {'ATTACKER_HASH_POWER_SHARE': 0.9, 'CONFIRMATIONS': 3, 'VICTOR_CONFIRMATIONS': 3, 'VICTIM_CONFIRMATIONS': 3, 'ATTACKER_NETWORK_DELAY_MS': 200, 'NETWORK_DELAY_MS': 200, 'NUM_OF_NODES': 5, 'updated_at': 1764836622181}
+[1764836643] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted
+[1764836643] Block 1 mined
+[1764836643] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 194 ms
+[1764836643] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 239 ms
+[1764836643] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 186 ms
+[1764836643] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 216 ms
+[1764836644] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764836644] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764836644] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764836644] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764836685] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764836684984}
+[1764836698] [ATTACK-ARMED] Attack attempt on tx 329e7063b1779322ff4f36a0a55bca6e2337f4785cf535185b484d95f4c34385
+[1764836698] [ATTACK-SUCCESS] Attacker mined block 2
+[1764836698] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 211 ms
+[1764836698] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 215 ms
+[1764836698] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 185 ms
+[1764836698] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 228 ms
+[1764836698] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764836698] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764836698] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764836698] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764837497] Peer added: http://127.0.0.1:5002
+[1764837497] Peer added: http://127.0.0.1:5003
+[1764837497] Peer added: http://127.0.0.1:5004
+[1764837497] Peer added: http://127.0.0.1:5005
+[1764837497] Peer added: http://127.0.0.1:5001
+[1764837497] Peer added: http://127.0.0.1:5003
+[1764837497] Peer added: http://127.0.0.1:5004
+[1764837497] Peer added: http://127.0.0.1:5005
+[1764837497] Peer added: http://127.0.0.1:5001
+[1764837497] Peer added: http://127.0.0.1:5002
+[1764837497] Peer added: http://127.0.0.1:5004
+[1764837497] Peer added: http://127.0.0.1:5005
+[1764837497] Peer added: http://127.0.0.1:5001
+[1764837497] Peer added: http://127.0.0.1:5002
+[1764837497] Peer added: http://127.0.0.1:5003
+[1764837497] Peer added: http://127.0.0.1:5005
+[1764837497] Peer added: http://127.0.0.1:5001
+[1764837497] Peer added: http://127.0.0.1:5002
+[1764837497] Peer added: http://127.0.0.1:5003
+[1764837497] Peer added: http://127.0.0.1:5004
+[1764837580] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted
+[1764837581] Block 1 mined
+[1764837581] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 224 ms
+[1764837581] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 166 ms
+[1764837581] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 237 ms
+[1764837581] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 204 ms
+[1764837581] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764837581] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764837581] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764837581] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764837720] Peer added: http://127.0.0.1:5002
+[1764837720] Peer added: http://127.0.0.1:5003
+[1764837720] Peer added: http://127.0.0.1:5004
+[1764837720] Peer added: http://127.0.0.1:5005
+[1764837720] Peer added: http://127.0.0.1:5001
+[1764837720] Peer added: http://127.0.0.1:5003
+[1764837720] Peer added: http://127.0.0.1:5004
+[1764837720] Peer added: http://127.0.0.1:5005
+[1764837720] Peer added: http://127.0.0.1:5001
+[1764837720] Peer added: http://127.0.0.1:5002
+[1764837720] Peer added: http://127.0.0.1:5004
+[1764837720] Peer added: http://127.0.0.1:5005
+[1764837720] Peer added: http://127.0.0.1:5001
+[1764837720] Peer added: http://127.0.0.1:5002
+[1764837720] Peer added: http://127.0.0.1:5003
+[1764837720] Peer added: http://127.0.0.1:5005
+[1764837720] Peer added: http://127.0.0.1:5001
+[1764837720] Peer added: http://127.0.0.1:5002
+[1764837720] Peer added: http://127.0.0.1:5003
+[1764837720] Peer added: http://127.0.0.1:5004
+[1764837808] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764837808217}
+[1764837818] [ATTACK-ARMED] Attack attempt on tx 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679
+[1764837818] [ATTACK-SUCCESS] Attacker mined block 1
+[1764837818] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 224 ms
+[1764837818] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 161 ms
+[1764837818] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 209 ms
+[1764837818] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 202 ms
+[1764837819] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764837819] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764837819] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764837819] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764840242] Transaction 4d39f33f4d9b4cff97268b87aa3e0d963c226e355dedca508ce840165d745179 accepted
+[1764840242] Block 2 mined
+[1764840242] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 160 ms
+[1764840242] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 201 ms
+[1764840242] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 187 ms
+[1764840242] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 208 ms
+[1764840242] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764840243] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764840243] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764840243] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764840365] Peer added: http://127.0.0.1:5002
+[1764840365] Peer added: http://127.0.0.1:5003
+[1764840365] Peer added: http://127.0.0.1:5004
+[1764840365] Peer added: http://127.0.0.1:5005
+[1764840365] Peer added: http://127.0.0.1:5001
+[1764840365] Peer added: http://127.0.0.1:5003
+[1764840365] Peer added: http://127.0.0.1:5004
+[1764840365] Peer added: http://127.0.0.1:5005
+[1764840365] Peer added: http://127.0.0.1:5001
+[1764840365] Peer added: http://127.0.0.1:5002
+[1764840365] Peer added: http://127.0.0.1:5004
+[1764840365] Peer added: http://127.0.0.1:5005
+[1764840365] Peer added: http://127.0.0.1:5001
+[1764840365] Peer added: http://127.0.0.1:5002
+[1764840365] Peer added: http://127.0.0.1:5003
+[1764840365] Peer added: http://127.0.0.1:5005
+[1764840365] Peer added: http://127.0.0.1:5001
+[1764840365] Peer added: http://127.0.0.1:5002
+[1764840365] Peer added: http://127.0.0.1:5003
+[1764840365] Peer added: http://127.0.0.1:5004
+[1764840396] [PARAMS] Updated params via API: {'ATTACKER_HASH_POWER_SHARE': 0.9, 'CONFIRMATIONS': 3, 'VICTOR_CONFIRMATIONS': 3, 'VICTIM_CONFIRMATIONS': 3, 'ATTACKER_NETWORK_DELAY_MS': 200, 'NETWORK_DELAY_MS': 200, 'NUM_OF_NODES': 5, 'updated_at': 1764840396949}
+[1764840400] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764840400385}
+[1764840414] [ATTACK-ARMED] Attack attempt on tx ba1758b337a29a6cff8753d3d3e1febda4501c0770e198885a55e6b9cd2e60f6
+[1764840414] [ATTACK-SUCCESS] Attacker mined block 1
+[1764840414] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 223 ms
+[1764840414] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 189 ms
+[1764840414] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 182 ms
+[1764840414] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 207 ms
+[1764840415] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764840415] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764840415] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764840415] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764840494] Transaction 6abdb269c7047f08b46de3f6f8e99afb550d92444c45099988ca21585939e767 accepted
+[1764840494] Block 2 mined
+[1764840494] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 169 ms
+[1764840494] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 193 ms
+[1764840494] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 166 ms
+[1764840494] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 161 ms
+[1764840494] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764840495] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764840840] Peer added: http://127.0.0.1:5002
+[1764840840] Peer added: http://127.0.0.1:5003
+[1764840840] Peer added: http://127.0.0.1:5004
+[1764840840] Peer added: http://127.0.0.1:5005
+[1764840840] Peer added: http://127.0.0.1:5001
+[1764840840] Peer added: http://127.0.0.1:5003
+[1764840840] Peer added: http://127.0.0.1:5004
+[1764840840] Peer added: http://127.0.0.1:5005
+[1764840840] Peer added: http://127.0.0.1:5001
+[1764840840] Peer added: http://127.0.0.1:5002
+[1764840840] Peer added: http://127.0.0.1:5004
+[1764840840] Peer added: http://127.0.0.1:5005
+[1764840840] Peer added: http://127.0.0.1:5001
+[1764840840] Peer added: http://127.0.0.1:5002
+[1764840840] Peer added: http://127.0.0.1:5003
+[1764840840] Peer added: http://127.0.0.1:5005
+[1764840840] Peer added: http://127.0.0.1:5001
+[1764840840] Peer added: http://127.0.0.1:5002
+[1764840840] Peer added: http://127.0.0.1:5003
+[1764840840] Peer added: http://127.0.0.1:5004
+[1764840854] [PARAMS] Updated params via API: {'ATTACKER_HASH_POWER_SHARE': 0.5, 'CONFIRMATIONS': 3, 'VICTOR_CONFIRMATIONS': 3, 'VICTIM_CONFIRMATIONS': 3, 'ATTACKER_NETWORK_DELAY_MS': 200, 'NETWORK_DELAY_MS': 200, 'NUM_OF_NODES': 5, 'updated_at': 1764840854704}
+[1764840860] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764840860365}
+[1764840872] [ATTACK-ARMED] Attack attempt on tx 49657af5bbb86fc5c89d94f8516f7890ec3f87d90168dfab46bc6cdcebafe147
+[1764840872] [ATTACK-FAIL] tx rejected
+[1764840905] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764840905605}
+[1764840918] [ATTACK-ARMED] Attack attempt on tx 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679
+[1764840918] [ATTACK-FAIL] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted
+[1764840918] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 202 ms
+[1764840918] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 171 ms
+[1764840918] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 197 ms
+[1764840918] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 180 ms
+[1764840918] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764840918] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764840918] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764843540] Transaction d3ec36e80d74632c36f870f9459d3f0dd259394261188fbebe731e436e87697e accepted
+[1764843540] Block 2 mined
+[1764843540] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 234 ms
+[1764843540] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 160 ms
+[1764843540] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 224 ms
+[1764843540] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 197 ms
+[1764843540] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764843540] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764843540] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764843573] Peer added: http://127.0.0.1:5002
+[1764843573] Peer added: http://127.0.0.1:5003
+[1764843573] Peer added: http://127.0.0.1:5004
+[1764843573] Peer added: http://127.0.0.1:5005
+[1764843573] Peer added: http://127.0.0.1:5001
+[1764843573] Peer added: http://127.0.0.1:5003
+[1764843573] Peer added: http://127.0.0.1:5004
+[1764843573] Peer added: http://127.0.0.1:5005
+[1764843573] Peer added: http://127.0.0.1:5001
+[1764843573] Peer added: http://127.0.0.1:5002
+[1764843573] Peer added: http://127.0.0.1:5004
+[1764843573] Peer added: http://127.0.0.1:5005
+[1764843573] Peer added: http://127.0.0.1:5001
+[1764843573] Peer added: http://127.0.0.1:5002
+[1764843573] Peer added: http://127.0.0.1:5003
+[1764843573] Peer added: http://127.0.0.1:5005
+[1764843573] Peer added: http://127.0.0.1:5001
+[1764843573] Peer added: http://127.0.0.1:5002
+[1764843573] Peer added: http://127.0.0.1:5003
+[1764843573] Peer added: http://127.0.0.1:5004
+[1764843579] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764843579583}
+[1764843595] [ATTACK-ARMED] Attack attempt on tx 902d36e310ec72080c2cda42a06d96df867dd9e4784b76a8c3562540214a7bbc
+[1764843595] [ATTACK-SUCCESS] Attacker mined block 1
+[1764843595] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 228 ms
+[1764843595] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 179 ms
+[1764843595] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 162 ms
+[1764843595] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 166 ms
+[1764843595] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764843595] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764843595] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764843595] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764845663] Peer added: http://127.0.0.1:5002
+[1764845663] Peer added: http://127.0.0.1:5003
+[1764845663] Peer added: http://127.0.0.1:5004
+[1764845663] Peer added: http://127.0.0.1:5005
+[1764845663] Peer added: http://127.0.0.1:5001
+[1764845663] Peer added: http://127.0.0.1:5003
+[1764845663] Peer added: http://127.0.0.1:5004
+[1764845663] Peer added: http://127.0.0.1:5005
+[1764845663] Peer added: http://127.0.0.1:5001
+[1764845663] Peer added: http://127.0.0.1:5002
+[1764845663] Peer added: http://127.0.0.1:5004
+[1764845663] Peer added: http://127.0.0.1:5005
+[1764845663] Peer added: http://127.0.0.1:5001
+[1764845663] Peer added: http://127.0.0.1:5002
+[1764845663] Peer added: http://127.0.0.1:5003
+[1764845663] Peer added: http://127.0.0.1:5005
+[1764845663] Peer added: http://127.0.0.1:5001
+[1764845663] Peer added: http://127.0.0.1:5002
+[1764845663] Peer added: http://127.0.0.1:5003
+[1764845663] Peer added: http://127.0.0.1:5004
+[1764845680] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764845680942}
+[1764845704] [ATTACK-ARMED] Attack attempt on tx d378580f8382ce8ad0ae43eedd580bacdfa4d187ee3b464a90341493020b82ab
+[1764845704] [ATTACK-SUCCESS] Attacker mined block 1
+[1764845704] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 166 ms
+[1764845704] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 230 ms
+[1764845704] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 208 ms
+[1764845704] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 196 ms
+[1764845705] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764845705] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764845705] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764845705] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764845735] Transaction 46986d1a2bf4a8a448751790572f8c28133ef50e7066353dfac486df8b520679 accepted
+[1764845735] Block 2 mined
+[1764845735] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 232 ms
+[1764845735] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 201 ms
+[1764845735] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 235 ms
+[1764845735] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 214 ms
+[1764845735] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764845735] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764845735] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764845735] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764845771] Transaction a173b80611cf53f444d74254c4b4ae4cd7c7553e3243b8509b78ea4886ebc7ff accepted
+[1764845771] Block 3 mined
+[1764845771] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 173 ms
+[1764845771] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 209 ms
+[1764845771] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 214 ms
+[1764845771] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 177 ms
+[1764845772] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764845772] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764845772] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764845772] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764845836] [PARAMS] Updated params via API: {'ATTACKER_HASH_POWER_SHARE': 0.91, 'CONFIRMATIONS': 3, 'ATTACKER_NETWORK_DELAY_MS': 200, 'NETWORK_DELAY_MS': 200, 'NUM_OF_NODES': 5, 'updated_at': 1764845836291}
+[1764845846] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764845846030}
+[1764845860] [ATTACK-ARMED] Attack attempt on tx 630b9856a9a6d1e556a0f861bb3e214b311789c6cee9347df2775572a8aa8d90
+[1764845860] [ATTACK-SUCCESS] Attacker mined block 4
+[1764845860] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 210 ms
+[1764845860] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 184 ms
+[1764845860] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 230 ms
+[1764845860] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 185 ms
+[1764845860] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764845860] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764845860] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764845860] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764845891] [PARAMS] Updated params via API: {'ATTACKER_HASH_POWER_SHARE': 0.91, 'CONFIRMATIONS': 3, 'ATTACKER_NETWORK_DELAY_MS': 200, 'NETWORK_DELAY_MS': 200, 'NUM_OF_NODES': 5, 'updated_at': 1764845891650}
+[1764845902] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764845902958}
+[1764845914] [ATTACK-ARMED] Attack attempt on tx 2a63e9d115279fe2b4b129820d9782580f492634e7bcc61d48bdb638a6ad91ca
+[1764845914] [ATTACK-SUCCESS] Attacker mined block 5
+[1764845914] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 216 ms
+[1764845914] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 227 ms
+[1764845914] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 224 ms
+[1764845914] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 180 ms
+[1764845914] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764845914] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764845914] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764845914] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764846515] Peer added: http://127.0.0.1:5002
+[1764846515] Peer added: http://127.0.0.1:5003
+[1764846515] Peer added: http://127.0.0.1:5004
+[1764846515] Peer added: http://127.0.0.1:5005
+[1764846515] Peer added: http://127.0.0.1:5001
+[1764846515] Peer added: http://127.0.0.1:5003
+[1764846515] Peer added: http://127.0.0.1:5004
+[1764846516] Peer added: http://127.0.0.1:5005
+[1764846516] Peer added: http://127.0.0.1:5001
+[1764846516] Peer added: http://127.0.0.1:5002
+[1764846516] Peer added: http://127.0.0.1:5004
+[1764846516] Peer added: http://127.0.0.1:5005
+[1764846516] Peer added: http://127.0.0.1:5001
+[1764846516] Peer added: http://127.0.0.1:5002
+[1764846516] Peer added: http://127.0.0.1:5003
+[1764846516] Peer added: http://127.0.0.1:5005
+[1764846516] Peer added: http://127.0.0.1:5001
+[1764846516] Peer added: http://127.0.0.1:5002
+[1764846516] Peer added: http://127.0.0.1:5003
+[1764846516] Peer added: http://127.0.0.1:5004
+[1764846528] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764846528964}
+[1764846547] [ATTACK-ARMED] Attack attempt on tx d9d0750a7ae25db607ef944eb097adb93b1bac715023d076f96a315cd71f03e1
+[1764846547] [ATTACK-SUCCESS] Attacker mined block 1
+[1764846547] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 172 ms
+[1764846547] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 192 ms
+[1764846547] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 206 ms
+[1764846547] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 224 ms
+[1764846547] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764846547] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764846547] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764846547] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764846692] Peer added: http://127.0.0.1:5002
+[1764846692] Peer added: http://127.0.0.1:5003
+[1764846692] Peer added: http://127.0.0.1:5004
+[1764846692] Peer added: http://127.0.0.1:5005
+[1764846692] Peer added: http://127.0.0.1:5001
+[1764846692] Peer added: http://127.0.0.1:5003
+[1764846692] Peer added: http://127.0.0.1:5004
+[1764846692] Peer added: http://127.0.0.1:5005
+[1764846692] Peer added: http://127.0.0.1:5001
+[1764846692] Peer added: http://127.0.0.1:5002
+[1764846692] Peer added: http://127.0.0.1:5004
+[1764846692] Peer added: http://127.0.0.1:5005
+[1764846692] Peer added: http://127.0.0.1:5001
+[1764846692] Peer added: http://127.0.0.1:5002
+[1764846692] Peer added: http://127.0.0.1:5003
+[1764846692] Peer added: http://127.0.0.1:5005
+[1764846692] Peer added: http://127.0.0.1:5001
+[1764846692] Peer added: http://127.0.0.1:5002
+[1764846692] Peer added: http://127.0.0.1:5003
+[1764846692] Peer added: http://127.0.0.1:5004
+[1764846702] Transaction 9b458c4e48adf508d6d8081ca68be82b43434a2175f0cb9496b583ba4d627a4e rejected
+[1764846728] Transaction 4df74ae25bf2e96d539cb7674c3fe3fbba1494bd17780c8b118c60676d8b8fcc accepted
+[1764846728] Block 1 mined
+[1764846728] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 188 ms
+[1764846728] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 237 ms
+[1764846728] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 213 ms
+[1764846728] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 180 ms
+[1764846728] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764846728] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764846728] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764846728] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764847976] Peer added: http://127.0.0.1:5002
+[1764847976] Peer added: http://127.0.0.1:5003
+[1764847976] Peer added: http://127.0.0.1:5004
+[1764847976] Peer added: http://127.0.0.1:5005
+[1764847976] Peer added: http://127.0.0.1:5001
+[1764847977] Peer added: http://127.0.0.1:5003
+[1764847977] Peer added: http://127.0.0.1:5004
+[1764847977] Peer added: http://127.0.0.1:5005
+[1764847977] Peer added: http://127.0.0.1:5001
+[1764847977] Peer added: http://127.0.0.1:5002
+[1764847977] Peer added: http://127.0.0.1:5004
+[1764847977] Peer added: http://127.0.0.1:5005
+[1764847977] Peer added: http://127.0.0.1:5001
+[1764847977] Peer added: http://127.0.0.1:5002
+[1764847977] Peer added: http://127.0.0.1:5003
+[1764847977] Peer added: http://127.0.0.1:5005
+[1764847977] Peer added: http://127.0.0.1:5001
+[1764847977] Peer added: http://127.0.0.1:5002
+[1764847977] Peer added: http://127.0.0.1:5003
+[1764847977] Peer added: http://127.0.0.1:5004
+[1764847998] Transaction 4f8dd4aaa4ae541b0f7ddab1254a5f63bac63888fa4ae3c9d9cee9f4d78a0233 rejected
+[1764848007] Transaction bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce accepted
+[1764848007] Block 1 mined
+[1764848007] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 190 ms
+[1764848007] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 210 ms
+[1764848007] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 187 ms
+[1764848007] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 212 ms
+[1764848007] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764848007] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764848007] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764848145] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764848145176}
+[1764848156] [ATTACK-ARMED] Attack attempt on tx 329e7063b1779322ff4f36a0a55bca6e2337f4785cf535185b484d95f4c34385
+[1764848156] [ATTACK-SUCCESS] Attacker mined block 2
+[1764848156] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 236 ms
+[1764848156] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 210 ms
+[1764848156] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 181 ms
+[1764848156] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 166 ms
+[1764848156] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764848156] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764848156] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764848156] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764848927] Peer added: http://127.0.0.1:5002
+[1764848927] Peer added: http://127.0.0.1:5003
+[1764848927] Peer added: http://127.0.0.1:5004
+[1764848927] Peer added: http://127.0.0.1:5005
+[1764848927] Peer added: http://127.0.0.1:5001
+[1764848927] Peer added: http://127.0.0.1:5003
+[1764848927] Peer added: http://127.0.0.1:5004
+[1764848927] Peer added: http://127.0.0.1:5005
+[1764848927] Peer added: http://127.0.0.1:5001
+[1764848927] Peer added: http://127.0.0.1:5002
+[1764848927] Peer added: http://127.0.0.1:5004
+[1764848927] Peer added: http://127.0.0.1:5005
+[1764848927] Peer added: http://127.0.0.1:5001
+[1764848927] Peer added: http://127.0.0.1:5002
+[1764848927] Peer added: http://127.0.0.1:5003
+[1764848927] Peer added: http://127.0.0.1:5005
+[1764848927] Peer added: http://127.0.0.1:5001
+[1764848927] Peer added: http://127.0.0.1:5002
+[1764848927] Peer added: http://127.0.0.1:5003
+[1764848927] Peer added: http://127.0.0.1:5004
+[1764848955] Transaction bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce accepted
+[1764848955] Block 1 mined
+[1764848955] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 160 ms
+[1764848955] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 193 ms
+[1764848955] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 183 ms
+[1764848955] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 168 ms
+[1764848955] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764848955] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764848955] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764848986] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764848986937}
+[1764848997] [ATTACK-ARMED] Attack attempt on tx 2a63e9d115279fe2b4b129820d9782580f492634e7bcc61d48bdb638a6ad91ca
+[1764848997] [ATTACK-FAIL] Transaction 2a63e9d115279fe2b4b129820d9782580f492634e7bcc61d48bdb638a6ad91ca accepted
+[1764848997] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 176 ms
+[1764848997] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 162 ms
+[1764848997] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 239 ms
+[1764848997] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 205 ms
+[1764848997] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764848998] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764848998] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764848998] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764849065] Transaction ba670af767bb271a5babef2e8a8765a3bdc2308905fc6d8952ed64c131529e22 accepted
+[1764849065] Block 3 mined
+[1764849065] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 202 ms
+[1764849065] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 186 ms
+[1764849065] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 176 ms
+[1764849065] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 192 ms
+[1764849065] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764849065] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764849065] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764849065] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764849077] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764849077428}
+[1764849089] [ATTACK-ARMED] Attack attempt on tx 0874f90cf41592f197090d4383e273ac6f4707f200f5cc51be2140a4c0d79b18
+[1764849089] [ATTACK-SUCCESS] Attacker mined block 4
+[1764849089] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 225 ms
+[1764849089] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 167 ms
+[1764849089] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 173 ms
+[1764849089] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 217 ms
+[1764849090] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764849090] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764849090] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764849090] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764850689] Transaction 84fe2bf3b7e81a9b1d2812e094678801d0a77f85ace557660f29b07c8a6578a6 accepted
+[1764850689] Block 5 mined
+[1764850689] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 164 ms
+[1764850689] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 187 ms
+[1764850689] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 169 ms
+[1764850689] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 163 ms
+[1764850689] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764850689] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764850689] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764850689] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764850889] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764850889624}
+[1764850903] Peer added: http://127.0.0.1:5002
+[1764850903] Peer added: http://127.0.0.1:5003
+[1764850903] Peer added: http://127.0.0.1:5004
+[1764850903] Peer added: http://127.0.0.1:5005
+[1764850903] Peer added: http://127.0.0.1:5001
+[1764850903] Peer added: http://127.0.0.1:5003
+[1764850903] Peer added: http://127.0.0.1:5004
+[1764850903] Peer added: http://127.0.0.1:5005
+[1764850903] Peer added: http://127.0.0.1:5001
+[1764850903] Peer added: http://127.0.0.1:5002
+[1764850903] Peer added: http://127.0.0.1:5004
+[1764850903] Peer added: http://127.0.0.1:5005
+[1764850903] Peer added: http://127.0.0.1:5001
+[1764850903] Peer added: http://127.0.0.1:5002
+[1764850903] Peer added: http://127.0.0.1:5003
+[1764850903] Peer added: http://127.0.0.1:5005
+[1764850903] Peer added: http://127.0.0.1:5001
+[1764850903] Peer added: http://127.0.0.1:5002
+[1764850903] Peer added: http://127.0.0.1:5003
+[1764850903] Peer added: http://127.0.0.1:5004
+[1764851350] [ATTACK-ARMED] Attack attempt on tx d175e999d534e88a5ae23647f2fabe7466f41ecfe2a9f1e089a1d36e978b4d64
+[1764851350] [ATTACK-SUCCESS] Attacker mined block 1
+[1764851350] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 217 ms
+[1764851350] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 189 ms
+[1764851350] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 193 ms
+[1764851350] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 160 ms
+[1764851351] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764851351] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764851351] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764851351] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764852249] Peer added: http://127.0.0.1:5002
+[1764852250] Peer added: http://127.0.0.1:5003
+[1764852250] Peer added: http://127.0.0.1:5004
+[1764852250] Peer added: http://127.0.0.1:5005
+[1764852250] Peer added: http://127.0.0.1:5001
+[1764852250] Peer added: http://127.0.0.1:5003
+[1764852250] Peer added: http://127.0.0.1:5004
+[1764852250] Peer added: http://127.0.0.1:5005
+[1764852250] Peer added: http://127.0.0.1:5001
+[1764852250] Peer added: http://127.0.0.1:5002
+[1764852250] Peer added: http://127.0.0.1:5004
+[1764852250] Peer added: http://127.0.0.1:5005
+[1764852250] Peer added: http://127.0.0.1:5001
+[1764852250] Peer added: http://127.0.0.1:5002
+[1764852250] Peer added: http://127.0.0.1:5003
+[1764852250] Peer added: http://127.0.0.1:5005
+[1764852250] Peer added: http://127.0.0.1:5001
+[1764852250] Peer added: http://127.0.0.1:5002
+[1764852250] Peer added: http://127.0.0.1:5003
+[1764852250] Peer added: http://127.0.0.1:5004
+[1764852274] Peer added: http://127.0.0.1:5002
+[1764852274] Peer added: http://127.0.0.1:5003
+[1764852274] Peer added: http://127.0.0.1:5004
+[1764852274] Peer added: http://127.0.0.1:5005
+[1764852274] Peer added: http://127.0.0.1:5001
+[1764852274] Peer added: http://127.0.0.1:5003
+[1764852274] Peer added: http://127.0.0.1:5004
+[1764852274] Peer added: http://127.0.0.1:5005
+[1764852274] Peer added: http://127.0.0.1:5001
+[1764852274] Peer added: http://127.0.0.1:5002
+[1764852274] Peer added: http://127.0.0.1:5004
+[1764852274] Peer added: http://127.0.0.1:5005
+[1764852274] Peer added: http://127.0.0.1:5001
+[1764852274] Peer added: http://127.0.0.1:5002
+[1764852274] Peer added: http://127.0.0.1:5003
+[1764852274] Peer added: http://127.0.0.1:5005
+[1764852274] Peer added: http://127.0.0.1:5001
+[1764852274] Peer added: http://127.0.0.1:5002
+[1764852274] Peer added: http://127.0.0.1:5003
+[1764852274] Peer added: http://127.0.0.1:5004
+[1764852349] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764852349896}
+[1764852362] [ATTACK-ARMED] Attack attempt on tx bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce
+[1764852362] [ATTACK-SUCCESS] Attacker mined block 1
+[1764852362] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 203 ms
+[1764852362] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 163 ms
+[1764852362] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 189 ms
+[1764852362] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 187 ms
+[1764852362] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764852362] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764852362] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764852389] Transaction cd2e0231f8389cbbcd61d1fbb97043930b9750fd5babf9bb93ed681e8c11edaf accepted
+[1764852390] Block 2 mined
+[1764852390] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 168 ms
+[1764852390] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 226 ms
+[1764852390] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 220 ms
+[1764852390] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 213 ms
+[1764852390] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764852390] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764852390] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764852390] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764852417] Transaction 70128aa063db421f12baf2ce41fb576276878c2ffdb903ef1fd58089ec1e5c7d accepted
+[1764852417] Block 3 mined
+[1764852417] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 177 ms
+[1764852417] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 184 ms
+[1764852417] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 197 ms
+[1764852417] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 215 ms
+[1764852417] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764852417] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764852417] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764852417] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764852448] Peer added: http://127.0.0.1:5002
+[1764852448] Peer added: http://127.0.0.1:5003
+[1764852448] Peer added: http://127.0.0.1:5004
+[1764852448] Peer added: http://127.0.0.1:5005
+[1764852448] Peer added: http://127.0.0.1:5001
+[1764852448] Peer added: http://127.0.0.1:5003
+[1764852448] Peer added: http://127.0.0.1:5004
+[1764852448] Peer added: http://127.0.0.1:5005
+[1764852448] Peer added: http://127.0.0.1:5001
+[1764852448] Peer added: http://127.0.0.1:5002
+[1764852448] Peer added: http://127.0.0.1:5004
+[1764852448] Peer added: http://127.0.0.1:5005
+[1764852448] Peer added: http://127.0.0.1:5001
+[1764852448] Peer added: http://127.0.0.1:5002
+[1764852448] Peer added: http://127.0.0.1:5003
+[1764852448] Peer added: http://127.0.0.1:5005
+[1764852448] Peer added: http://127.0.0.1:5001
+[1764852448] Peer added: http://127.0.0.1:5002
+[1764852448] Peer added: http://127.0.0.1:5003
+[1764852448] Peer added: http://127.0.0.1:5004
+[1764852482] [PARAMS] Updated params via API: {'ATTACKER_HASH_POWER_SHARE': 51, 'CONFIRMATIONS': 3, 'ATTACKER_NETWORK_DELAY_MS': 200, 'NETWORK_DELAY_MS': 200, 'NUM_OF_NODES': 5, 'updated_at': 1764852482680}
+[1764852500] Transaction 08f2616b230895521aad58a295559aa904f8a610783824688f198dfb641a9785 accepted
+[1764852500] Block 1 mined
+[1764852500] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 179 ms
+[1764852500] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 196 ms
+[1764852500] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 209 ms
+[1764852500] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 213 ms
+[1764852500] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764852500] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764852500] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764852500] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764852570] Transaction d175e999d534e88a5ae23647f2fabe7466f41ecfe2a9f1e089a1d36e978b4d64 accepted
+[1764852570] Block 2 mined
+[1764852570] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 171 ms
+[1764852570] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 178 ms
+[1764852570] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 163 ms
+[1764852570] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 169 ms
+[1764852571] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764852571] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764852571] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764852571] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764852652] [PARAMS] Updated params via API: {'ATTACKER_HASH_POWER_SHARE': 51, 'CONFIRMATIONS': 3, 'ATTACKER_NETWORK_DELAY_MS': 200, 'NETWORK_DELAY_MS': 200, 'NUM_OF_NODES': 5, 'updated_at': 1764852652465}
+[1764852662] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764852662105}
+[1764852675] [ATTACK-ARMED] Attack attempt on tx 52066b59cd9b7ad7d2b97248eda5f3dfb5d52fea4407e781cac20879a6ca9770
+[1764852675] [ATTACK-SUCCESS] Attacker mined block 3
+[1764852675] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 180 ms
+[1764852675] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 165 ms
+[1764852675] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 160 ms
+[1764852675] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 234 ms
+[1764852675] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764852675] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764852675] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764852675] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764852782] Transaction 7a0f3789c4475cbb7efa0675d3b513e5f31b863a8fe533d1f8e603e2e71518df accepted
+[1764852782] Block 4 mined
+[1764852782] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 233 ms
+[1764852782] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 180 ms
+[1764852782] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 212 ms
+[1764852782] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 193 ms
+[1764852783] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764852783] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764852783] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764852783] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764853924] Peer added: http://127.0.0.1:5002
+[1764853924] Peer added: http://127.0.0.1:5003
+[1764853924] Peer added: http://127.0.0.1:5004
+[1764853924] Peer added: http://127.0.0.1:5005
+[1764853924] Peer added: http://127.0.0.1:5001
+[1764853924] Peer added: http://127.0.0.1:5003
+[1764853924] Peer added: http://127.0.0.1:5004
+[1764853924] Peer added: http://127.0.0.1:5005
+[1764853924] Peer added: http://127.0.0.1:5001
+[1764853924] Peer added: http://127.0.0.1:5002
+[1764853924] Peer added: http://127.0.0.1:5004
+[1764853924] Peer added: http://127.0.0.1:5005
+[1764853924] Peer added: http://127.0.0.1:5001
+[1764853924] Peer added: http://127.0.0.1:5002
+[1764853924] Peer added: http://127.0.0.1:5003
+[1764853924] Peer added: http://127.0.0.1:5005
+[1764853924] Peer added: http://127.0.0.1:5001
+[1764853924] Peer added: http://127.0.0.1:5002
+[1764853924] Peer added: http://127.0.0.1:5003
+[1764853924] Peer added: http://127.0.0.1:5004
+[1764853948] Transaction 4d39f33f4d9b4cff97268b87aa3e0d963c226e355dedca508ce840165d745179 accepted
+[1764853948] Block 1 mined
+[1764853948] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 206 ms
+[1764853948] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 192 ms
+[1764853948] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 170 ms
+[1764853948] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 215 ms
+[1764853949] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764853949] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764853949] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764853949] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764853983] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764853983444}
+[1764854001] [ATTACK-ARMED] Attack attempt on tx 0d479204e9818cf62b4e2e8d4133a643939ce1a3a08831494d6c0f80859e84b9
+[1764854001] [ATTACK-SUCCESS] Attacker mined block 2
+[1764854001] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 212 ms
+[1764854001] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 223 ms
+[1764854001] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 231 ms
+[1764854001] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 182 ms
+[1764854001] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764854001] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764854001] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764854058] Transaction 0d479204e9818cf62b4e2e8d4133a643939ce1a3a08831494d6c0f80859e84b9 accepted
+[1764854058] Block 3 mined
+[1764854058] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 162 ms
+[1764854058] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 203 ms
+[1764854058] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 201 ms
+[1764854058] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 181 ms
+[1764854058] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764854058] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764854058] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764854058] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764854238] Peer added: http://127.0.0.1:5002
+[1764854238] Peer added: http://127.0.0.1:5003
+[1764854239] Peer added: http://127.0.0.1:5004
+[1764854239] Peer added: http://127.0.0.1:5005
+[1764854239] Peer added: http://127.0.0.1:5001
+[1764854239] Peer added: http://127.0.0.1:5003
+[1764854239] Peer added: http://127.0.0.1:5004
+[1764854239] Peer added: http://127.0.0.1:5005
+[1764854239] Peer added: http://127.0.0.1:5001
+[1764854239] Peer added: http://127.0.0.1:5002
+[1764854239] Peer added: http://127.0.0.1:5004
+[1764854239] Peer added: http://127.0.0.1:5005
+[1764854239] Peer added: http://127.0.0.1:5001
+[1764854239] Peer added: http://127.0.0.1:5002
+[1764854239] Peer added: http://127.0.0.1:5003
+[1764854239] Peer added: http://127.0.0.1:5005
+[1764854239] Peer added: http://127.0.0.1:5001
+[1764854239] Peer added: http://127.0.0.1:5002
+[1764854239] Peer added: http://127.0.0.1:5003
+[1764854239] Peer added: http://127.0.0.1:5004
+[1764854262] Transaction a42157c1efeb1396da9431ef9ac690a32ddfa645dee18f0d1a7fddaf7823840b accepted
+[1764854262] Block 1 mined
+[1764854262] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 167 ms
+[1764854262] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 160 ms
+[1764854262] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 210 ms
+[1764854262] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 239 ms
+[1764854262] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764854262] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764854262] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764854262] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764854297] Transaction a173b80611cf53f444d74254c4b4ae4cd7c7553e3243b8509b78ea4886ebc7ff accepted
+[1764854297] Block 2 mined
+[1764854297] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 187 ms
+[1764854297] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 213 ms
+[1764854297] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 168 ms
+[1764854297] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 205 ms
+[1764854297] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764854297] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764854298] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764854298] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764854718] Transaction 329e7063b1779322ff4f36a0a55bca6e2337f4785cf535185b484d95f4c34385 accepted
+[1764854718] Block 3 mined
+[1764854718] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 163 ms
+[1764854718] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 219 ms
+[1764854718] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 189 ms
+[1764854718] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 166 ms
+[1764854718] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764854718] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764854718] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764854718] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764854820] Peer added: http://127.0.0.1:5002
+[1764854820] Peer added: http://127.0.0.1:5003
+[1764854820] Peer added: http://127.0.0.1:5004
+[1764854821] Peer added: http://127.0.0.1:5005
+[1764854821] Peer added: http://127.0.0.1:5001
+[1764854821] Peer added: http://127.0.0.1:5003
+[1764854821] Peer added: http://127.0.0.1:5004
+[1764854821] Peer added: http://127.0.0.1:5005
+[1764854821] Peer added: http://127.0.0.1:5001
+[1764854821] Peer added: http://127.0.0.1:5002
+[1764854821] Peer added: http://127.0.0.1:5004
+[1764854821] Peer added: http://127.0.0.1:5005
+[1764854821] Peer added: http://127.0.0.1:5001
+[1764854821] Peer added: http://127.0.0.1:5002
+[1764854821] Peer added: http://127.0.0.1:5003
+[1764854821] Peer added: http://127.0.0.1:5005
+[1764854821] Peer added: http://127.0.0.1:5001
+[1764854821] Peer added: http://127.0.0.1:5002
+[1764854821] Peer added: http://127.0.0.1:5003
+[1764854821] Peer added: http://127.0.0.1:5004
+[1764854835] Transaction bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce accepted
+[1764854835] Block 1 mined
+[1764854835] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 236 ms
+[1764854835] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 232 ms
+[1764854835] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 193 ms
+[1764854835] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 166 ms
+[1764854835] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764854835] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764854835] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764854895] Run-attack armed: {'requested_by': 'dashboard', 'ts': 1764854895483}
+[1764854909] [ATTACK-ARMED] Attack attempt on tx a173b80611cf53f444d74254c4b4ae4cd7c7553e3243b8509b78ea4886ebc7ff
+[1764854909] [ATTACK-SUCCESS] Attacker mined block 2
+[1764854909] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 193 ms
+[1764854909] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 189 ms
+[1764854909] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 164 ms
+[1764854909] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 170 ms
+[1764854909] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764854909] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764854909] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764854910] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764854964] Transaction 98bc38963be1ebb0aef1180aecb5625b8227e5cd4082d0d9bf031c919acb96f2 accepted
+[1764854964] Block 3 mined
+[1764854964] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 200 ms
+[1764854964] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 198 ms
+[1764854964] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 167 ms
+[1764854964] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 218 ms
+[1764854964] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764854964] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764854964] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764854964] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764855028] Transaction 910ab91b4840b743b89b7aa5626fda1d0ab1514754f7f914f2d4bfbfa312239b accepted
+[1764855028] Block 4 mined
+[1764855028] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 185 ms
+[1764855028] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 239 ms
+[1764855028] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 173 ms
+[1764855028] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 200 ms
+[1764855028] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764855028] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764855028] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764855028] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1764856058] Peer added: http://127.0.0.1:5002
+[1764856058] Peer added: http://127.0.0.1:5003
+[1764856058] Peer added: http://127.0.0.1:5004
+[1764856058] Peer added: http://127.0.0.1:5005
+[1764856058] Peer added: http://127.0.0.1:5001
+[1764856058] Peer added: http://127.0.0.1:5003
+[1764856058] Peer added: http://127.0.0.1:5004
+[1764856058] Peer added: http://127.0.0.1:5005
+[1764856058] Peer added: http://127.0.0.1:5001
+[1764856058] Peer added: http://127.0.0.1:5002
+[1764856058] Peer added: http://127.0.0.1:5004
+[1764856058] Peer added: http://127.0.0.1:5005
+[1764856058] Peer added: http://127.0.0.1:5001
+[1764856058] Peer added: http://127.0.0.1:5002
+[1764856058] Peer added: http://127.0.0.1:5003
+[1764856058] Peer added: http://127.0.0.1:5005
+[1764856058] Peer added: http://127.0.0.1:5001
+[1764856058] Peer added: http://127.0.0.1:5002
+[1764856058] Peer added: http://127.0.0.1:5003
+[1764856058] Peer added: http://127.0.0.1:5004
+[1764862281] Peer added: http://127.0.0.1:5002
+[1764862281] Peer added: http://127.0.0.1:5003
+[1764862281] Peer added: http://127.0.0.1:5004
+[1764862281] Peer added: http://127.0.0.1:5005
+[1764862281] Peer added: http://127.0.0.1:5001
+[1764862281] Peer added: http://127.0.0.1:5003
+[1764862282] Peer added: http://127.0.0.1:5004
+[1764862282] Peer added: http://127.0.0.1:5005
+[1764862282] Peer added: http://127.0.0.1:5001
+[1764862282] Peer added: http://127.0.0.1:5002
+[1764862282] Peer added: http://127.0.0.1:5004
+[1764862282] Peer added: http://127.0.0.1:5005
+[1764862282] Peer added: http://127.0.0.1:5001
+[1764862282] Peer added: http://127.0.0.1:5002
+[1764862282] Peer added: http://127.0.0.1:5003
+[1764862282] Peer added: http://127.0.0.1:5005
+[1764862282] Peer added: http://127.0.0.1:5001
+[1764862282] Peer added: http://127.0.0.1:5002
+[1764862282] Peer added: http://127.0.0.1:5003
+[1764862282] Peer added: http://127.0.0.1:5004
+[1764862304] Transaction bde98c120fd6b41dea9a0c2550434c3a46208f1d869969c2c83140d933528fce accepted
+[1764862304] Block 1 mined
+[1764862304] [BCAST] schedule http://127.0.0.1:5002/block_gossip in 177 ms
+[1764862304] [BCAST] schedule http://127.0.0.1:5005/block_gossip in 228 ms
+[1764862304] [BCAST] schedule http://127.0.0.1:5004/block_gossip in 238 ms
+[1764862304] [BCAST] schedule http://127.0.0.1:5003/block_gossip in 193 ms
+[1764862304] [BPOST] POST http://127.0.0.1:5002/block_gossip OK
+[1764862304] [BPOST] POST http://127.0.0.1:5003/block_gossip OK
+[1764862304] [BPOST] POST http://127.0.0.1:5005/block_gossip OK
+[1764862304] [BPOST] POST http://127.0.0.1:5004/block_gossip OK
+[1771060310] Peer added: http://127.0.0.1:5002
+[1771060310] Peer added: http://127.0.0.1:5003
+[1771060310] Peer added: http://127.0.0.1:5004
+[1771060310] Peer added: http://127.0.0.1:5005
+[1771060310] Peer added: http://127.0.0.1:5001
+[1771060310] Peer added: http://127.0.0.1:5003
+[1771060310] Peer added: http://127.0.0.1:5004
+[1771060310] Peer added: http://127.0.0.1:5005
+[1771060310] Peer added: http://127.0.0.1:5001
+[1771060310] Peer added: http://127.0.0.1:5002
+[1771060310] Peer added: http://127.0.0.1:5004
+[1771060310] Peer added: http://127.0.0.1:5005
+[1771060310] Peer added: http://127.0.0.1:5001
+[1771060310] Peer added: http://127.0.0.1:5002
+[1771060310] Peer added: http://127.0.0.1:5003
+[1771060310] Peer added: http://127.0.0.1:5005
+[1771060310] Peer added: http://127.0.0.1:5001
+[1771060310] Peer added: http://127.0.0.1:5002
+[1771060310] Peer added: http://127.0.0.1:5003
+[1771060310] Peer added: http://127.0.0.1:5004

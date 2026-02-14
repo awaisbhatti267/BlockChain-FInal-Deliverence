@@ -1,0 +1,256 @@
+<!-- #################################
+####### -Logs.html- ######
+################################# -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logs - DoubleForge</title>
+  <link rel="stylesheet" href="/Front-End/Styles/log.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* small overrides / controls layout (optional — you can move to log.css) */
+    .log-controls {
+      margin-top: 12px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .log-controls button {
+      background: #FFD700;
+      border: none;
+      padding: 8px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .log-controls button:hover {
+      background: #ff0000;
+      color: #fff;
+    }
+
+    .node-selector {
+      background: rgba(255, 255, 255, 0.06);
+      color: #FFD700;
+      border: 1px solid #FFD700;
+      padding: 6px;
+      border-radius: 6px;
+    }
+
+    .log-status {
+      margin-left: 8px;
+      color: #FFD700;
+      font-family: Arial;
+      font-size: 14px;
+    }
+
+    .small-muted {
+      color: #ccc;
+      font-size: 13px;
+      margin-left: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logs-page">
+    <div class="navbar2">
+      <div class="icon2">
+        <h2 class="logo2"><a href="dashboard.html">DoubleForge: Blockchain Attack Testing Suite</a></h2>
+      </div>
+      <div class="menu2">
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="transaction.html">Create Transaction</a></li>
+          <li><a href="log.html" style="color: red;">Logs</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="logs-container">
+      <h1>Execution Logs</h1>
+
+      <!-- Controls: choose node to view, refresh, clear -->
+      <div class="log-controls" style="margin-bottom:8px;">
+        <label for="nodeSelect" style="color:#FFD700;font-family:Arial;">View node:</label>
+        <select id="nodeSelect" class="node-selector" title="Choose node to view logs">
+          <!-- options added by script -->
+        </select>
+
+        <button id="refreshBtn" title="Fetch logs now">Refresh</button>
+        <button id="clearBtn" title="Clear client view">Clear</button>
+
+        <span id="logStatus" class="log-status">Connecting…</span>
+        <span id="lastUpdate" class="small-muted"></span>
+      </div>
+
+      <div id="logBox" class="log-box" aria-live="polite" role="log">
+        <!-- Live logs will appear here -->
+      </div>
+    </div>
+    <div  class="returnbtn">
+      <button id="returnlog"><i class='fas fa-angle-double-left'></i></button>
+      <button id="return_transaction"><i class='fas fa-angle-left'></i>Transaction</button>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      // Default nodes to show in selector. Adjust or fetch programmatically as needed.
+      const DEFAULT_NODES = [
+        { name: "Local:5001", base: "http://127.0.0.1:5001" },
+        { name: "Local:5002", base: "http://127.0.0.1:5002" },
+        { name: "Local:5003", base: "http://127.0.0.1:5003" }
+      ];
+
+      const nodeSelect = document.getElementById("nodeSelect");
+      const logBox = document.getElementById("logBox");
+      const refreshBtn = document.getElementById("refreshBtn");
+      const clearBtn = document.getElementById("clearBtn");
+      const logStatus = document.getElementById("logStatus");
+      const lastUpdate = document.getElementById("lastUpdate");
+
+      // lastFetchedString to avoid re-rendering identical payloads
+      let lastFetchedString = null;
+
+      // populate selector
+      function populateSelector(nodes) {
+        nodeSelect.innerHTML = "";
+        nodes.forEach((n, idx) => {
+          const opt = document.createElement("option");
+          opt.value = n.base;
+          opt.textContent = n.name;
+          nodeSelect.appendChild(opt);
+        });
+      }
+
+      populateSelector(DEFAULT_NODES);
+
+      // try to fetch peers from current selected node and merge them into the selector
+      async function tryFetchPeersAndAdd() {
+        const base = nodeSelect.value || DEFAULT_NODES[0].base;
+        try {
+          const res = await fetch(`${base}/peers`, { cache: "no-store" });
+          if (!res.ok) return;
+          const data = await res.json();
+          const peers = data.peers || [];
+          // map peers to selector options (avoid duplicates)
+          peers.forEach(peer => {
+            // only add if not already present
+            const exists = Array.from(nodeSelect.options).some(o => o.value === peer);
+            if (!exists) {
+              const opt = document.createElement("option");
+              opt.value = peer;
+              opt.textContent = peer;
+              nodeSelect.appendChild(opt);
+            }
+          });
+        } catch (e) {
+          // ignore; peers endpoint may not be available on the node we queried
+        }
+      }
+
+      // Build logs endpoint from selected node base
+      function logsEndpointFor(base) {
+        // trim trailing slash
+        return base.replace(/\/+$/, "") + "/logs";
+      }
+
+      async function fetchLogsOnce() {
+        const base = nodeSelect.value || DEFAULT_NODES[0].base;
+        const endpoint = logsEndpointFor(base);
+        try {
+          logStatus.textContent = "Fetching...";
+          const res = await fetch(endpoint, { cache: "no-store" });
+          if (!res.ok) {
+            throw new Error("HTTP " + res.status);
+          }
+          const payload = await res.json();
+
+          // payload should be an array of strings (server returns EVENT_LOGS[-400:])
+          if (!Array.isArray(payload)) {
+            // show formatted JSON if it's a different structure
+            logBox.innerHTML = "<pre>" + JSON.stringify(payload, null, 2) + "</pre>";
+            lastUpdate.textContent = new Date().toLocaleTimeString();
+            logStatus.textContent = "Updated (non-array payload)";
+            return;
+          }
+
+          const serialized = payload.join("\n");
+          if (serialized === lastFetchedString) {
+            logStatus.textContent = `No new logs (${new Date().toLocaleTimeString()})`;
+            return;
+          }
+          lastFetchedString = serialized;
+
+          // render lines
+          logBox.innerHTML = "";
+          payload.forEach(line => {
+            const p = document.createElement("p");
+            p.textContent = line;
+            logBox.appendChild(p);
+          });
+
+          // auto-scroll
+          logBox.scrollTop = logBox.scrollHeight;
+          logStatus.textContent = "Updated";
+          lastUpdate.textContent = new Date().toLocaleTimeString();
+        } catch (err) {
+          console.error("fetchLogsOnce error:", err);
+          logStatus.textContent = "Error: " + (err.message || "fetch failed");
+          // keep previous logs visible
+        }
+      }
+
+      // polling
+      const POLL_MS = 3000;
+      let pollHandle = null;
+      function startPolling() {
+        if (pollHandle) clearInterval(pollHandle);
+        pollHandle = setInterval(fetchLogsOnce, POLL_MS);
+      }
+
+      // event handlers
+      refreshBtn.addEventListener("click", () => {
+        // force fetch now
+        lastFetchedString = null; // reset so it always re-renders
+        fetchLogsOnce();
+      });
+
+      clearBtn.addEventListener("click", () => {
+        logBox.innerHTML = "";
+        lastFetchedString = null;
+        logStatus.textContent = "Cleared";
+        lastUpdate.textContent = "";
+      });
+
+      nodeSelect.addEventListener("change", async () => {
+        lastFetchedString = null;
+        await tryFetchPeersAndAdd();
+        fetchLogsOnce();
+      });
+
+      // initial actions
+      (async function init() {
+        // try to add peers from default base nodes to selector (best-effort)
+        tryFetchPeersAndAdd();
+        await fetchLogsOnce();
+        startPolling();
+      })();
+
+    })();
+
+  </script>
+  <script src="/Front-End/script.js"></script>
+</body>
+
+</html>

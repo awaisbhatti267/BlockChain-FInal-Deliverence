@@ -1,0 +1,4 @@
+timestamp,txid,sender,receiver,amount,type
+1764846728,"Tx(sender='alice', receiver='bob', amount=1, nonce=0, txid='4df74ae25bf2e96d539cb7674c3fe3fbba1494bd17780c8b118c60676d8b8fcc')",,,0,mempool-add
+1764846728,"Tx(sender='COINBASE', receiver='miner', amount=50, nonce=0, txid='c54be34767f29c75f4e9faa9093cd77071725e9d54bdab74b923dfc007d777e5')",,,0,block-accepted
+1764846728,"Tx(sender='alice', receiver='bob', amount=1, nonce=0, txid='4df74ae25bf2e96d539cb7674c3fe3fbba1494bd17780c8b118c60676d8b8fcc')",,,0,block-accepted
